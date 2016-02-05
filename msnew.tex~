@@ -1,0 +1,700 @@
+%\documentclass[manuscript,natbib]{aastex}
+\documentclass[12pt,preprint]{aastex}
+
+%%\newcommand{\vdag}{(v)^\dagger}
+\newcommand{\bvf}{Brunt-V\"ais\"al\"a }
+\newcommand{\teff}{$\rm T_{eff}$}
+\newcommand{\logg}{$\log$g }
+\newcommand{\kic}{kic}
+\newcommand{\kicnsp}{kic }
+\newcommand{\sigrms}{$\sigma_{\rm RMS}$}
+\newcommand{\mstar}{$M_*$}
+\newcommand{\menv}{$M_{\rm env}$}
+\newcommand{\mhe}{$M_{\rm He}$}
+\newcommand{\xo}{$X_o$}
+\newcommand{\qfm}{$q_{\rm fm}$}
+\newcommand{\muHz}{\mbox{$\mu$Hz}}
+\newcommand{\msun}{$M_\odot$}
+
+\shorttitle{Asteroseismology of GD358}
+\shortauthors{Bischoff-Kim}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{epsfig}
+\usepackage[outdir=./]{epstopdf}
+%\usepackage{ulem}
+%\usepackage{booktab}
+%\usepackage{natbib}
+
+%\bibliographystyle{natbib}
+
+\begin{document}
+
+\title{Asteroseismology of GD358 with complex C/O core profiles}
+
+\author {Agn\'es~Bischoff-Kim\altaffilmark{1},
+J.~L. Provencal\altaffilmark{2,3},
+M.~H.~Montgomery\altaffilmark{3,4},
+Samuel~T.~Harrold\altaffilmark{4},
+B.~Howard\altaffilmark{3},
+W.~Strickland\altaffilmark{5},
+D.~Chandler\altaffilmark{5},
+D.~Campbell\altaffilmark{5},
+A.~Arredondo\altaffilmark{5},
+R.~Linn\altaffilmark{5},
+D.~P.~Russell\altaffilmark{5},
+D.~Doyle\altaffilmark{5},
+A.~Brickhouse\altaffilmark{5},
+R.~Linn\altaffilmark{5},
+D.~Peters\altaffilmark{5},
+A.~V.~Kusakin\altaffilmark{6},
+A.~V.~Sergeev\altaffilmark{7},
+M.~Andreev\altaffilmark{7},
+A.~Maksim\altaffilmark{7},
+S. Velichko\altaffilmark{7}
+R.~Janulis\altaffilmark{8},
+F.~Ali\c cavu\c s\altaffilmark{9},
+N. Horoz\altaffilmark{9},
+S.~Zola\altaffilmark{10,11},
+W.~Og{\l}oza\altaffilmark{10,11},
+D.~Koziel-Wierzbowska{10,11},
+T.~Kundera\altaffilmark{10,11},
+D. Jableka\altaffilmark{10,11},
+B. Debski\altaffilmark{10,11},
+S. Meingast\altaffilmark{12},
+}
+\altaffiltext{1}{Penn State Worthington Scranton, Dunmore, PA 18512; axk55@psu.edu}
+\altaffiltext{2}{University of Delaware, Department of Physics and Astronomy
+Newark, DE 19716; jlp@udel.edu}
+\altaffiltext{3}{Delaware Asteroseismic Research Center, Mt. Cuba Observatory,
+Greenville, DE 19807}
+\altaffiltext{4}{Department of Astronomy, University of Texas, Austin, TX 78712;
+mikemon@rocky.as.utexas.edu}
+\altaffiltext{5}{Meyer Observatory and Central Texas Astronomical Society, 209
+Paintbrush, Waco, TX 76705; chandler@vvm.com}
+\altaffiltext{6}{Fesenkov Astrophysical Institute, Almaty 050020, Kazakhstan}
+\altaffiltext{7}{Ukrainian National Academy of Sciences, Main Astronomical
+Observatory, Golosiiv, Kiev 022 252650; sergeev@terskol.com }
+\altaffiltext{8}{Institute of Theoretical Physics and Astronomy, Vilnius
+University, Vilnius, Lithuania; jr@itpa.lt}
+\altaffiltext{9}{Ulupinar Observatory, \c Canakkale Onsekiz Mart University, Turkey}
+\altaffiltext{10}{Astronomical Observatory of the Jagiellonian University, ul. Orla
+171, 30-244 Cracow, Poland; szola@oa.uj.edu.pl}
+\altaffiltext{11}{Mount Suhora Observatory, Cracow Pedagogical University, Ul.
+Podchorazych 2, 30-084 Krakow, Poland; zola@astro1.as.ap.krakow.pl}
+\altaffiltext{12}{Institut f\H ur Astrophysik, Universit\H at Wien, T\H urkenschanzstrasse 17, 1180 Wien, Austria}
+
+\clearpage
+\newpage
+
+\begin{abstract}
+We report on ......
+\end{abstract}
+
+\keywords{Stars: oscillations --- Stars: variables: general --- white dwarfs}
+
+\section{Astrophysical Context}
+White dwarfs are the end product of evolution for around 98\% of the stars in our Galaxy. 
+Buried in their interiors are the records of physical processes that take place during 
+earlier stages in the life of the star. Nuclear reaction rates during the core helium 
+burning phase set the core composition of white dwarfs, while the relative time spent 
+burning hydrogen and helium during the asymptotic-giant-branch (AGB) phase and mass-loss 
+episodes determine the thickness of the helium layer \citep{Lawlor06,Althaus05}. Helium 
+atmosphere white dwarfs (DBs) comprise roughly 20\% of the population of field white 
+dwarfs, with most of the remaining 80\% consisting of their hydrogen atmosphere (DA) 
+cousins. The bifurcation into two spectral classes is thought to occur during post-AGB 
+evolution when, in some cases, a very late thermal pulse burns off the residual hydrogen 
+in the envelope, producing a nearly pure helium atmosphere \citep{Iben83}. Such objects 
+are then supposed to return to the white dwarf cooling track as PG 1159 stars, which are 
+widely believed to be the precursors of most DB white dwarfs. DBs are found to pulsate at 
+effective temperatures ranging between 21,000 K and 28,000 K \citep{Beauchamp99, Castanheira05}. 
+
+The subject of this paper, GD358 (V777 Her) is the brightest ($m_{\rm v}=13.7$) and best 
+studied helium atmosphere white dwarf pulsator. It is located near the red edge of the 
+instability strip (\teff = , \logg =). GD358's pulsation spectrum contains a series of 
+independent modes, many with complex multiplet structure.  Models involving magnetic 
+fields have been proposed to explain that structure \citep{Montgomery10}. Of importance for
+this work is the fact that the spacing of the multiplets is consistent with theoretical 
+predictions for a series of $l=1$ modes \citep{Provencal09}.
+
+Paradoxally, among the DBVs that have enough detected periods to be fitted 
+asteroseismically, GD358 is the only one that has not been analyzed using the complex 
+C/O profiles adapted and parameterized from stellar evolution calculations
+([e.g.][]\citet{Salaris97,Althaus05}). The most recent fits of GD358 \citep{Metcalfe03c} were 
+performed using 11 observed modes and simple models where the oxygen abundance 
+drops linearly from its central value to zero. 
+
+Pulsating white dwarfs do not pulsate in all their available modes at all times.  
+We have maintained an active observing program of this complex star in an effort 
+to identify additional frequencies. These new observations have identified additional 
+periods in GD358's pulsation spectrum, bringing the total known modes to 15. Thirteen of 
+these modes belong to a consecutive $\ell=1$ sequence, the longest sequence observed 
+in a DBV. This sequence is critical to constrain the asteroseismic fits and better define the
+limitations of high precision white dwarf asteroseismology. 
+
+We present a new detailed asteroseismic analysis of GD358, taking advantage of 
+its long sequence of $\ell=1$ modes to better constrain the asteroseismic fits and 
+define the limits of high precision white dwarf asteroseismology.  Our goals are two-fold.  
+First, we will incorporate advanced asteroseismic models to explore parameter space 
+\citet{BishoffKim14}. For example, the even period spacing observed in GD358's 
+pulsation spectrum is consistent with the theory of g-mode non-radial pulsations. The 
+magnitude of the spacing is expected to be related to how compressible the stellar 
+interior is. The compressibility of the interior should be inversely proportional to the 
+effective temperature. A hotter object would be less compact. On the other hand, a more 
+massive model will have a higher density and be less compressible. These properties lead 
+to distinguishable features of the models in the mass versus effective temperature 
+parameter plane. We can explore such features with GD358 because we have a long, 
+confirmed, single $\ell$ sequence of modes of higher radial order.
+
+Secondly, the present analysis allows us to place GD358 in the context of stellar evolution. 
+According to the models, the precursors of DBs emerge from the born-again phase with 
+envelopes containing a nearly uniform mixture of helium (He), carbon (C), and oxygen (O) 
+out to the photosphere \citep{Dreizler98,Herwig99}. As the PG 1159 stars cool, the helium 
+diffuses upward and gradually accumulates to form a chemically pure surface layer. Through 
+the DBV instability strip, this process is still ongoing so that instead of a pure helium 
+layer surrounding the carbon and oxygen core, one has a region where the carbon and helium 
+are still mixed. This leads to a double layered structure, with the pure He surface layer 
+overlying the remainder of the uniform He/C/O envelope, all above the degenerate C/O core. 
+A key prediction of the diffusion models is that, for a given stellar mass, the pure He 
+surface layer will steadily grow thicker as the DB star cools.  GD358 is the fourth DBV 
+we can use to check this theory. The other three DBVs 
+(\citet{Bishoff-Kim14,Sullivan08, Metcalfe03c}) have painted a picture consistent with 
+the diffusion calculations, with the hotter best fit models having thinner pure helium 
+layers. With GD358, we seek to confirm this trend qualitatively.
+
+In Section \ref{data}, we present our new observations and outline the data reduction process.  
+In Section \ref{freq}, we establish the framework for frequency identification, and present the 
+list of frequencies used for the asteroseismic investigation.  Section \ref{aster} outlines the 
+asteroseismic investigation, and .....
+
+\section {New Observations and Data Reduction}\label{data}
+
+GD358 was discovered in 1982 \citep{Winget82} and has been the target of the Whole 
+Earth Telescope (WET) in 1990, 1994, 2000, and 2006 \citep{Provencal09, Kepler03,Winget94}. 
+New observations presented here include 254 individual observing runs (1105.1 hrs) spanning 
+2007-2015 (Table \ref{journal}. Each season of observations was obtained as part of 
+multisite WET campaigns. 
+
+Standard procedure for WET observations calls for observers to transfer raw images and 
+calibration files to WET headquarters for analysis at the end of each local night. CCD 
+data reduction follows the steps described in \citet{Provencal12}. In brief, the new observations 
+were obtained with different CCD photometers, each with distinct effective bandpasses. 
+We minimize the bandpass issues by using CCDs with similar detectors whenever possible and 
+employing a red cutoff filter (BG40 or S8612) to normalize wavelength response and 
+reduce extinction effects. We corrected each image for bias and thermal noise, and 
+normalized by the flat field. Aperture photometry using the Maestro photometry pipeline 
+described by \citet{Dalessio10} was performed on each image, utilizing a range of 
+aperture sizes for the target and comparison stars. For each individual nightly run, we 
+chose the combination of aperture size and comparison star(s) producing the highest 
+signal/noise light curve. 
+
+We used the WQED pipeline \citet{wqed} to examine each nightly light curve for photometric 
+quality, remove outlying points, divide by suitable comparison stars, and correct for 
+differential extinction. Our observational technique is therefore not sensitive to 
+oscillations longer than a few hours. The result is a series of light curves 
+with amplitude variations represented as fractional intensity (mmi). The unit is a linear 
+representation of the fractional intensity of modulation (1 mmi $\approx$1 mmag). We present
+our Fourier transforms (FTs) in units of modulation amplitude 
+($1\sim mma=1 \times 10^{-3} {\rm ma} = 0.1 \% = 1\sim ppt$).
+
+The final reduction step is to combine the individual light curves (Figure \ref{tersk}) to produce 
+complete light curves for GD358 for each observing season. We assume GD358 oscillates about 
+a mean light level. This assumption allows us to carefully assess overlapping segments from 
+different telescopes and identify and correct any vertical offsets. As discussed in detail 
+in \citet{Provencal09}, we find no significant differences between the noise levels of 
+amplitude spectra using: 1) the combination of all light curves including overlapping 
+segments from different telescopes, 2) the combination of light curves where we retain 
+only higher signal to noise observations in overlapping segments and 3) combining all light 
+curves using data weighted by telescope aperture.
+
+\begin{figure}
+\epsscale{0.7}
+\plotone{terskol}
+\caption{Light curve of GD358 obtained with the Peak Terskol 2.0m.  Each point corresponds 
+to a 10 s exposure. The nonlinear, multiperiodic nature of this star is clearly evident.
+\label{tersk}
+}
+\end{figure}
+
+The result is a series of new light curves for each observing season between 2007 and 2015. 
+2007 contains 8.1 hrs of observation, 2008 26.1 hrs, 2009 45 hrs, 2010 201.3 hrs, 2011 
+401.1 hrs, 2012 150.5 hrs, 2013 87 hrs, 2014 184.6 hrs, and 2015 55 hrs. Our coverage is 
+not complete, and this incompleteness produces spectral leakage in the amplitude spectra. 
+To quantify this, we sampled single sinusoids using exactly the same times as the original 
+data for each season. The resulting amplitude spectrum, or ``spectral window'', is the 
+pattern produced in the FT by a single frequency. The FTs for 2010, 2011, and 2014 
+are given in Fig.~\ref{fts}.
+
+
+\begin{figure}
+\plotone{gd358multidft}
+\caption{Fourier Transforms of GD358 for the 2010, 2011, and 2014 observing seasons.
+The frequency range of the observed series of $\ell=1$ modes discussed in Section \ref{analysis} 
+is indicated by the left arrow (red).  Peaks below $\approx$ 2400 \muHz are combination 
+frequencies discussed in Section \ref{analysis} (right arrow, blue). 
+(A color version of this figure is available in the online journal.)
+\label{fts}
+}
+\end{figure}
+
+\section{Frequency Identification}\label{freq}
+ 
+Our goal is to compile a complete list of GD358's observed independent and combination frequencies 
+to be used in a comprehensive asteroseismic analysis. GD358 is known for large scale changes in 
+amplitudes and small but not insignificant frequency variations on a variety of timescales 
+\citep{Provencal09}.  The amplitude and frequency variations evident in Fig.~\ref{fts} will 
+produce artifacts in FTs, greatly complicating any frequency analysis.  
+We reanalyzed all available archival data \citep{Provencal09, Kepler03, Winget94, Winget82} 
+as well as our new observations to insure continuity in methodology.  We use 
+{\sl Period04} \citep{Lenz05} for Fourier analysis and nonlinear least squares fitting to 
+select statistically significant peaks in each FT.  As discussed in \citet{Provencal12}, 
+we adopt the criterion that a peak must have an amplitude at least four times greater than the 
+average noise level in the given frequency range. We define ``noise'' as the frequency-dependent 
+average amplitude after prewhitening by the dominant frequencies. This is a conservative estimate, 
+as it is impossible to ensure that all of the ``real'' frequencies are removed when determining
+the noise level. This is certainly true for GD358, where the peaks above $\approx$ 2500 $\mu$Hz\ 
+are combination frequencies \citep{Provencal09}.  Fig.~\ref{noise} displays the average noise 
+as a function of frequency for the 2007-2015 observing seasons. A similar plot for the 
+archival data is presented in Figure 3 of \citet{Provencal09}. To confirm our uncertainty 
+estimates, we calculated Monte Carlo simulations using the routine provided in {\sl Period04}.  
+This routine generates a set of light curves using the original times, the fitted frequencies and 
+amplitudes, and added Gaussian noise. A least squares fit is performed on each simulated light 
+curve, with the distribution of fit parameters giving the uncertainties. Our Monte Carlo results 
+are consistent with our average noise estimates.
+
+\begin{figure}
+\plotone{noise}
+\caption{A comparison of the average noise as a function of frequency for the 2007-2015 observing 
+seasons.  Each data set was prewhitened by its dominant frequencies.  The noise levels for each 
+season are somewhat different.  This must be taken into account during frequency analysis.  
+\label{noise}
+}
+\end{figure}
+
+Our frequency selection procedure involves identifying the largest amplitude resolved peak in the FT,
+fitting a sinusoid at that frequency to the data set, subtracting the fit from the light curve, 
+recomputing the FT, examining the residuals, and repeating the process until no significant power 
+remains. This technique, known as prewhitening, must be employed with an over-abundance of caution, 
+especially since we are aware of amplitude and/or frequency modulation in our data set. A detailed
+discussion of the prewhitening procedure and steps taken to minimize the effects of amplitude 
+modulation is given in \citep{Provencal09}. Our final identifications of independent frequencies
+detected in each observing season are given in Table \ref{freq1} and Table \ref{freq2}.
+
+\section{Frequency Analysis}\label{analysis}
+
+\subsection{Frequencies Distribution}
+
+Perusal of Tables \ref{freq1} and \ref{freq2} shows that GD358's observed frequencies vary in two
+important ways.  First, frequencies detected in a given observing season are not found 
+in all observing seasons. Asteroseismology is based on the assumption that the available pulsation
+frequencies are linked to stellar structure.  Since we are fairly certain that GD358's internal structure 
+does not change on the timescales of the observations, we can assume that GD358 excites 
+different subsets of its available pulsations at different times. While this is a common phenomenon
+seen in white dwarf pulsators, the selection mechanism remains mysterious. The best way to 
+determine GD358's complete set of pulsation frequencies is to combine frequency identifications 
+from multiple observing seasons as outlined in \citep{Kleinman98}.  
+
+\begin{figure}
+\epsscale{0.8}
+%\plottwo{gd358multif_2015.eps}{gd358multi.eps}
+%\centering{
+%\includegraphics[width=1.0]{gd358multif_2015.eps}
+%}
+\plotone{gd358multif_2015.eps}
+\caption{A schematic representation of GD358's pulsation modes for all available data between
+1982 and 2015. Systematic patterns of distribution are evident. The bands between 2400 and 1000
+\muHz (400 and 1000 s) are of particular importance for this work. (A color version of this 
+figure is available in the online journal.)
+\label{schematic}
+}
+\end{figure}
+
+Figure~\ref{schematic} presents a schematic representation of GD358's pulsation frequencies for all the 
+available data. The features of asteroseismic importance are the localized bands between 900 and 2400
+\muHz (1100 and 400 s). We interpret each band to represent a single radial overtone in GD358. The bands
+themselves illustrate the second way in which GD358's frequencies vary. Each band consists of 
+frequency detections from multiple observing seasons, but each band is significantly wider in 
+frequency space than the frequency error of any single measurement, arguing that some process 
+is acting on the frequencies. The simplest explanation is rotational splitting.  However, with the 
+exception of the two highest frequency (shortest period) bands ($k=8$ and $k=9$ 
+from \citet{Provencal09}), we find no clear evidence of multiplet structure in the frequency 
+distributions of the lower frequency (longer period) bands. The lower frequency band widths are 
+most likely the result of amplitude and/or frequency modulation that obscures any underlying 
+signatures of rotational splitting.  
+
+\begin{figure}
+ \epsscale{1.0}
+ \plotone{gd358k17_k8.eps}
+% \plottwo{gd358multifk17.eps}{gd358multifk8.eps}
+ \caption{The detailed schematic distribution of frequencies for the bands near 1300 {\em{right}}
+ and 2360 \muHz {\em{left}}. The 1300 \muHz band shows no multiplet structure, unlike the 2360 \muHz
+ band. Here we see clear evidence of multiplet structure. Assuming the triplet structure represents
+ $l=1$, this implies a rotation period of $\approx 1.5$ days. Note changes in the scale for both axes.
+ (A color version of this figure is available in the online journal.)
+ \label{rot}}
+\end{figure}
+
+Figure \ref{schematic} also shows that the widths of the bands is not constant, but changes from band to band.
+\citet{Bell15} presents an interesting analysis of the hydrogen atmosphere pulsator (DAV) \kicnsp 4552982, 
+in which they identify 17 bands of pulsation frequencies. This DAV follows the general pattern exhibited 
+by GD358: the highest frequency (shortest period) mode shows evidence of rotational splitting, while the 
+lower frequency (longer period) modes are complex bands. The authors note that this DAV's bands have 
+different widths in frequency space, and that there may be astronomical significance to this. Although the 
+observational timebases are quite different (20 months for \kicnsp 4552982 vs 30 years for GD358), our 
+data presents the opportunity to investigate this for a DB pulsator.  We measured the width of each of 
+GD358's band. We define ''width'' as the difference between the lowest and highest frequency 
+detected in each band. Figure \ref{thick} presents the results. The widths of GD358's bands are 
+commensurate with those found in \kicnsp 4552982.  We also find a general increase in width with 
+decreasing frequency (increasing period), until we reach the mode at 1238\muHz (807 s). This band has 
+a width at least twice as wide as any other.  What is different about this mode???
+
+\begin{figure}
+ \epsscale{0.8}
+ \plotone{modethick.eps}
+ \caption{Width of each bank of power in Fig.~\ref{schematic}. We find an overall increase 
+ in band thickness with decreasing frequency (increasing period).  The band at 807~s has a width
+ at least twice as large as other bands.  
+ \label{thick}}
+\end{figure}
+
+
+\subsection{Mode Identification}
+
+GD358 is extensively studied \citep{Montgomery10, Provencal09, Metcalfe00, Winget94}.  Our current 
+work has produced a well defined sequence of modes. The previous identification of these modes as 
+a series of $l$=1 radial overtones is based mostly on the pulsation frequency distribution 
+and limited spectroscopic analysis \citep{Kotak02, Castanheira05}. It is important to further 
+investigate these identifications as we initiate an indepth asteroseismic investigations.  
+
+GD358's combination frequencies provide a tool by which we can bolster $l$ identifications. 
+Combination frequencies are typically observed in the FTs of moderate to large amplitude pulsators.  
+They are identified by their exact numerical relationships with parent frequencies.  
+The combinations themselves are not independent, but result from nonlinear effects associated 
+with the surface convection zone \citep{Brickhill92, Brassard95, Wu01, Ising01}.  
+\citet{Wu01} lays the groundwork, showing that observed amplitudes of the combination 
+frequencies depend on geometric factors such as the $(l,m)$ indices of the parents and the 
+inclination of the pulsation axis to the line of sight.  
+
+The methods outlined in \citet{Provencal12} and \citet{Montgomery10} work best when applied to 
+larger amplitude frequencies detected in high signal to noise data sets such as provided by 
+extensive WET runs.  The primary reason for this is that combination frequencies are lower 
+amplitude than their parents, and so are more difficult to detect in sparse data.  We chose 
+the 1990, 1994, 2006, 2010, 2011, and 2014 observing seasons, and looked at pulsation 
+frequencies with amplitudes above 10 mma.  
+
+Figure~\ref{amps} shows the resulting probability distribution of $l$ and $m$ values for the 1735.96 \muHz
+frequency detected in 2014.   
+
+\begin{figure}
+ \epsscale{0.8}
+ \plotone{modeamps.eps}
+ \caption{Probability distribution (from 0 to 1) of $l$ and $m$ values for the 1735.96 variation detected in 
+ 2014.  The solutions are from individual simulations with $Res_{rms}<9.5e-06$. The amplitudes of the 
+ observed combination frequencies argue that this is $l$=1, $m$=1.  
+ \label{modeamps}
+ }
+\end{figure}
+
+
+
+Finally, given the $l$=1 identification, but the lack of definite multiplet structure, the best way to 
+determine the l=0 component for each band is simply to average the frequencies in the bands.  We experimented
+with numerous weighting techniques, and determined there is no significant difference in our solutions.  
+Our final frequency identification for each band is given in Table~\ref{tl}.  
+
+
+\section{Pulsational properties}
+\label{prop}
+
+\section{Asteroseismic fitting}\ref{astero}
+\label{fitting}
+
+The basic method in our asteroseismic fitting consists of calculating grids of white dwarf models and 
+running a fitting subroutine to match the periods of the models ($\rm P_{calc}$) with the observed 
+periods and calculated residuals using the usual formula
+
+\begin{equation}
+\label{fiteq1}
+\rm \sigma_{RMS} = \sqrt{\frac{\sum_{1}^{n_{obs}} {(P_{calc}-P_{obs})^2}}{n_{obs}}},
+\end{equation}
+
+\noindent where $\rm n_{obs}$ is the number of periods present in the pulsation spectrum.
+
+\subsection{The Models}
+\label{models}
+
+To compute our models, we used the White Dwarf Evolution Code (WDEC). The WDEC evolves hot 
+polytrope models from temperatures above 100{,}000~K down to the temperature of our choice. 
+Models in the temperature range of interest for the present study are thermally relaxed 
+solutions to the stellar structure equations. Each model we compute for our grids is the result 
+of such an evolutionary sequence. The WDEC is described in detail in \citet{Lamb75} and 
+\citet{Wood90}. We used smoother core composition profiles and implemented more complex profiles 
+that result from stellar evolution calculations \citep{Salaris97}. We updated the envelope 
+equation of state tables from those calculated by \citet{Fontaine77} to those given by 
+\citet{Saumon95}. We use OPAL opacities \citep{Iglesias96} and plasmon neutrino rates 
+published by \citet{Itoh96}. 
+
+DBVs are younger than their cooler cousins the DAVs. Time-dependent diffusion calculations 
+\citep[e.g.][]{Dehner95,Althaus05} show that at 24{,}000~K, a typical temperature for a DBV, 
+the carbon has not fully settled into the core of the star yet. We expect the helium layer to 
+be separated into a mixed He/C layer with a pure He layer on top, as shown in Fig. \ref{ffit1}. 
+Following  \citet{Metcalfe05a}, we adopted and parameterized this structure in our models. 
+
+\begin{figure}
+%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
+%  {\includegraphics[width=1.0\columnwidth]{ffit1.eps}}
+\plotone{ffit1.eps}
+\caption{
+{\em Upper panel:} Chemical composition profiles of our models to illustrate the parameterization 
+of the internal chemical structure. The center of the model is to the left and the surface to 
+the right.  $q=2$ corresponds to $M_r = 0.99 \: M_*$. The vertical axis shows fractional abundances. 
+{\em Lower panel:} The corresponding \bvf frequency ($\log{N^2}$ on the vertical axis). Each 
+chemical transition leads to a bump in the \bvf frequency. \label{ffit1}
+}
+\end{figure}
+
+\subsection{Initial grid search}
+\label{grids}
+
+In our asteroseismic fits, we initially varied six parameters; the effective temperature, 
+the mass and four structure parameters. There are two parameters associated with the shapes 
+of the oxygen (and carbon) core composition profiles: the central oxygen abundance ($X_o$) and 
+the edge of the homogeneous carbon and oxygen core ($q_{\rm fm}$, as a fraction of stellar mass. 
+For envelope structure, $M_{\rm env}$ marks the location of the base of the helium layer 
+and $M_{\rm He}$ the location where the helium abundance rises to $1$ (see Figure \ref{ffit1}). 
+$M_{\rm env}$ and $M_{\rm He}$ are mass coordinates, defined as e.g. 
+$M_{\rm env} = -\log(1 - M(r)/M_*)$, where $M(r)$ is the mass enclosed in radius r and 
+$M_*$ is the stellar mass. 
+
+
+
+We started with a master grid (table \ref{fitt1}) chosen so that it covered all relevant 
+area of parameter space and had sufficient resolution, based on previous experience 
+\citep{Bischoff-Kim11a,Bischoff-Kim14} to find any region of local minimum in the fitness parameter, 
+but was small enough to be computationally manageable. The master grid involved the computation 
+of 10,483,200 models. We fit simultaneously all 15 periods, requiring all of them to be $\ell=1$ 
+modes. The results of this initial fit are shown in the left panel of figure \ref{ffit2}.
+
+\subsection{Asymptotic period spacing}
+\label{periodspacing}
+
+Before we refine the period-by-period fitting optimization, it is worth stepping back and consider 
+what we can learn from the average period spacing of GD358. The average period spacing provides a 
+useful asteroseismic measure of the mass and temperature of the star, independent of the details of 
+internal chemical composition profiles. Higher $k$ modes are not strongly trapped in the core and 
+according to asymptotic theory, they should be nearly evenly spaced in period. This spacing is 
+given by (Unno et al. 1989)
+
+\begin{equation}
+\label{fiteq2}
+\Delta P = \frac{\pi}{\ell(\ell + 1)^{1/2}}\left[\int_{r_1}^{r_2}\frac{N}{r}dr\right]^{-1},
+\end{equation}
+
+\noindent
+where $r_1$ and $r_2$ are turning points of the mode and N is the Brunt-V\"{a}is\"{a}l\"{a} frequency. 
+The asymptotic period spacing is $\ell$ dependent, with higher $\ell$ modes having smaller spacing. 
+In the case of GD 358, we have a single $\ell=1$ sequence so we only need to worry about the dependence 
+of the asymptotic period spacing on the \bvf frequency. Much if not all of GD 358's pulsation 
+spectrum is in the asymptotic limit, because the shortest period observed is a $k=8$ mode.
+
+The dependence of $\Delta P$ on the \bvf frequency leads to higher mass and lower temperature models 
+having a smaller period spacing (their interior is less compressible). This effect appears in asteroseismic 
+fitting of white dwarfs and also sdB stars as a ubiquitous diagonal trend in contour maps of the quality 
+of the fits in the mass-effective temparature plane \citep[e.g][]{Bischoff-Kim14,Castanheira09,Charpinet08}. 
+One requirement for the periods of the model to match the observed periods is that the average period spacing 
+in the models matches the average period spacing in the observed pulsation spectrum. If a good match occurs 
+for a given mass and effective temperature, then models with lower mass but higher effective temperature 
+will also match well.
+
+We can use the sequence of 13 consecutive $\ell=1$ modes we have with GD 358 to calibrate our models. 
+Using the $ell=1$ sequence of modes, we compute an average period spacing of 39.08 seconds. We call 
+this $\Delta P_{\rm obs}$. For each model in the master grid, we compute an asymptotic period spacing 
+($\Delta P_{\rm calc}$). This asymptotic period spacing is calculated by first discarding the first 
+10 modes. The exact value of 10 is somewhat arbitrary, but it is chosen so that the modes we use in 
+our computation are indeed in the asymptotic limit. The higher $k$ modes show weaker trapping than the 
+lower $k$ modes. We then fit a line through the set ($k_i$,$P_i$). The slope gives us the asymptotic 
+period spacing in the model. We also calculate the residuals of the fits and as an additional check, 
+discard the models that have residuals above a certain limit. The limit is chosen by checking the procedure 
+by eye on a few models. 
+
+We show a contour map of the location of the models that best match the average period spacing of 
+39.08 seconds in Fig. \ref{ffit1}, right panel. We place it side by side with a contour map showing 
+the location of the best fit model in the same region of parameter space, based on the master grid 
+fitting described in section \ref{grids}. Note how the best fit model falls right within the valley 
+where the period spacings between GD358 and the models match. This should come as no surprise, as in 
+order for 15 periods to fit reasonably well, the model period list should have a spacing similar to 
+that of the observed period spectrum. It is also somewhat comforting to find that the spectroscopic 
+data point also falls within the swath where the period spacings match (though the best fit model 
+based on the master grid search is further down the valley).
+
+%  \includegraphics[width=1.0\columnwidth]{ffit2.eps}
+\begin{figure}
+\epsscale{0.7}
+\plotone{ffit2.eps}
+\caption{
+{\it Left panel}: Contour map showing the location of the best fit models. The quantity plotted in 
+the mass-effective temperature plane is the fitness parameter defined in equation \ref{fiteq1}. 
+The scale is in seconds. {\it Right panel}: Contour map of the difference between the average 
+periods spacing determined from GD 358's periods and the asymptotic period spacing of the models, 
+in the mass-effective temperature plane. The scale is in 10s of seconds, so the worse matches 
+pictured on the plot have $\left|\Delta P_{\rm obs}- \Delta P_{\rm calc}\right| \sim 2 \; \rm s$. \label{ffit2}
+}
+\end{figure}
+
+One can fit simultaneously the average period spacing and the individual periods 
+formally while performing the fits by using some prescription to calculate the fitness parameter 
+{Travis,canadians?}. This leads to a more complex relation than defined in equation \ref{fiteq1}. 
+Note that the period spacing is a much weaker constraint than the individual period fit. 
+If one takes 4 seconds as an upper limit for fitness, that includes a single point in the 
+period-by-period fit plot (left panel in Fig \ref{ffit2}), but the entire parameter plane 
+for the average period spacing fit plot (right panel). We bypass the difficulty of 
+assigning proper weights to each constraint by taking the average period spacing fit into 
+account as an initial step to refine our fits. We refine our fits by calculating models on 
+a higher resolution grid that fall within the region defined by the two diagonal lines shown 
+in the right panel of figure \ref{ffit2}, then performing a period-by-period fit using 
+equation \ref{fiteq1}.
+
+%If we now look for the models that have $\Delta P_{\rm calc} = \Delta P_{\rm obs} = 39.08$ s 
+%and plot their mass and effective temperature, we do recover the expected diagonal trend 
+%(Fig \ref{ffit}). We can use the asymptotic period spacing to calibrate our models. Before 
+%we seek the detailed chemical make-up by performing period-by-period matching, we can 
+%test whether the bulk properties of our models are consistent with our observations of the 
+%stars. With spectroscopy, we can obtain a measurement of the effective temperature, and 
+%with the addition of a mass-radius relation, the star mass. For GD 358, we use results 
+%quoted in XXX and XXX. Both (all X) values are included on Fig. \ref{f3}. We see that our 
+%trend of best match between the calculated and the observed average period spacings goes 
+%right through the data points. GD 358 is the first DBV for which we are able perform this 
+%test. Our models have bulk properties that appear consistent with at least one real star. 
+%We confidently move on to our period-by-period fitting.
+
+\subsection{Determining the best grid resolution for refined fits}
+
+Having determined a more restricted region of parameter space to search for 
+the best fit models, we now turn to the question of how fine we need to 
+make our refined grid. We want to have a high enough resolution grid that 
+we can be sure we captured a true minimum, but on the other hand, there are 
+computational limitations to how many models we can afford to calculate, 
+save, and process.
+
+One way to gain a sense of how fine the grid needs to be is to make single 
+parameter cuts through parameter space. Fig.  \ref{ffit3} shows such a cut 
+for master grid models. The plot was made by fixing 5 of the 6 parameters 
+to their best fit value 
+($M_*=0.590 M_{\odot}$, $M_{\rm env}=2.40$, $M_{\rm He}=5.15$, $X_o=0.45$, and $q_{\rm fm}=0.15$). 
+We allowed the effective temperature to vary through the entire range 
+considered for the master grid (table \ref{fitt1}). One can see that the 
+fits are generally poor, though they do seem to settle to a minimum in a 
+smooth way. Except for the striking anomaly at 26,600~K. Upon further 
+investigation, we discovered that anomaly to be due to a single period in 
+the pulsation spectrum: the 968~s mode. In the model, that mode appears 
+highly sensitive to some parameters, and in a non-continuous way.
+
+\begin{figure}
+\epsscale{0.7}
+\plotone{ffit3.eps}
+%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
+%  \includegraphics[width=0.9\columnwidth]{ffit3.eps}
+\caption{
+Dependence of the fitness parameter on effective temperature alone based on 
+the master grid of models. \label{ffit3}
+}
+\end{figure}
+
+This is unsettling, as it is easy to see that one might miss the best fit 
+models if the grid is not fine enough. In order to quantify "fine enough", 
+we ran systematic scans, computing models with 5 parameter fixed and allowing 
+the 6th parameter to vary in very fine steps. We went all the way down in 
+step sizes to $\Delta {\rm T_{eff}}=1$~K, $\Delta M_*=0.1 M_\odot$, 
+$\Delta M_{\rm env}= \Delta M_{\rm He}=1$, $\Delta X_o=1$, and $\Delta q_{\rm fm}=0.1$. 
+Results for 4 different parameters are shown in Fig \ref{ffit4}. The figure 
+includes zooms to regions of interest. Other modes also exhibit a behavior 
+similar to the 968~s mode, in different regions of parameter space. For instance, 
+the jumps in $\sigma_{\rm RMS}$ for $q_{\rm fm}$ between 0.3 and 0.4 are due 
+to sudden changes in the 854.5 and 902.5~s modes.
+
+Regardless of the behavior of individual modes in the models as the parameters vary, 
+we can assert from the test above what step sizes will allow us to minimize our risk 
+of missing a minimum. We settled on optimal step sizes of 
+$\Delta {\rm T_{eff}}=20$, $\Delta M_*=0.2$, $\Delta M_{\rm He}=20$, 
+$\Delta X_o=20$, and $\Delta q_{\rm fm}=1$ for our refined grid. To offset 
+the computational cost, we fixed $M_{\rm env}$ to a canonical value of 
+2.80 \citep{Dehner95}. It is clear from the second panel in Fig. \ref{ffit4} 
+that there is only a weak dependence of the fits on that parameter.
+		
+\begin{figure}
+\epsscale{0.7}
+\plotone{ffit4.eps}
+%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
+%  \includegraphics[width=0.9\columnwidth]{ffit4.eps}
+\caption{
+  \label{ffit4}
+Dependence of the fitness parameter on different parameters. The 5 parameters not 
+shown on the horizontal axis in each plot are held to fixed values corresponding 
+to the best fit model. \label{ffit4}
+}
+\end{figure}
+
+\section{Results of the period fitting}
+
+\section{Discussion and Conclusions}
+\label{discussion}
+
+Lessons learned: how fine a grid must be. CAUTION with pipeline fitting. we learn that one must 
+exert extreme caution in any automated pipeline-type fitting of white dwarf stars.
+Asymptotic theory \\
+We recover the trend in mass/teff plane \\
+We confirm the weak dependence on 4 interior parameters. \\
+We calibrated our models.
+
+
+
+
+\acknowledgments
+
+
+{\it Facilities:} \facility{MCAO:0.6m ()}, \facility{Struve()},
+\facility{KPNO:2.1m ()}, 
+\facility{}, \facility{BOAO:1.8m ()}, \facility{Lulin:1.8m ()},
+\facility{Beijing:2.16m ()}, \facility{Maidanek:1.5m ()}, \facility{Peak Terskol}
+
+
+\bibliographystyle{apj}
+\bibliography{index_f}
+
+
+\clearpage
+
+\begin{deluxetable}{rrrrr}
+\tablecolumns{5}
+\tabletypesize{\small}
+\tablewidth{0pc}
+\tablecaption{}
+\tablehead{
+\colhead{Run Name} & \colhead{Telescope} & \colhead{Detector} & \colhead{Date} & \colhead{Length}\\
+\colhead{} & \colhead{} & \colhead{} & \colhead{} & \colhead{(hrs)}
+\label{journal}}
+\startdata
+\input{journaldata.tex}
+\enddata
+\end{deluxetable}
+
+\clearpage
+
+\input{1982freq.tex}
+\clearpage
+\input{2011freq.tex}
+\clearpage
+\input{gd358freqtab.tex} % label is gd358freq
+\clearpage
+\input{fitt1} % label is fitt1
+\clearpage
+%\begin{thebibliography}{}
+%\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+
+
+%\end{thebibliography}
+\input{journal}
+
+\end{document}
+
