@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.8.30)  7 FEB 2016 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.8.30)  8 FEB 2016 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,18 +107,10 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \c@plate=\count95
 \my@footins=\box31
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen115
-\extrarowheight=\dimen116
-\NC@list=\toks18
-\extratabsurround=\skip46
-\backup@length=\skip47
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen117
-\epsfysize=\dimen118
+\epsfxsize=\dimen115
+\epsfysize=\dimen116
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -172,19 +164,21 @@ Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
-)) (./deluxetable.sty
-Package: deluxetable 
-\pt@box=\box32
-\pt@width=\dimen119
-\pt@line=\count96
-\pt@column=\count97
-\pt@nlines=\count98
-\pt@ncol=\count99
-\pt@page=\count100
-\pt@tmpcapwidth=\dimen120
-) (./msnew.aux
+)) (./msnew.aux
 
 LaTeX Warning: Label `ffit4' multiply defined.
+
+
+LaTeX Warning: Label `journal' multiply defined.
+
+
+LaTeX Warning: Label `journal' multiply defined.
+
+
+LaTeX Warning: Label `journal' multiply defined.
+
+
+LaTeX Warning: Label `journal' multiply defined.
 
 
 LaTeX Warning: Label `journal' multiply defined.
@@ -210,714 +204,96 @@ LaTeX Warning: Label `journal' multiply defined.
 )
 \openout1 = `msnew.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 AAS preprint substyle, v5.2 <12 Dec 2003>.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 97.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 96.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-Package natbib Warning: Citation `Lawlor06' on page 1 undefined on input line 1
-03.
+) [1
 
 
-Package natbib Warning: Citation `Althaus05' on page 1 undefined on input line 
-103.
+] [2]
 
-
-Package natbib Warning: Citation `Iben83' on page 1 undefined on input line 108
-.
-
-
-Package natbib Warning: Citation `Beauchamp99' on page 1 undefined on input lin
-e 111.
-
-
-Package natbib Warning: Citation `Castanheira05' on page 1 undefined on input l
-ine 111.
-
-[1
-
-
-]
-
-Package natbib Warning: Citation `Montgomery10' on page 2 undefined on input li
-ne 117.
-
-
-Package natbib Warning: Citation `Provencal09' on page 2 undefined on input lin
-e 119.
-
-
-Package natbib Warning: Citation `Salaris97' on page 2 undefined on input line 
-124.
-
-
-Package natbib Warning: Citation `Althaus05' on page 2 undefined on input line 
-124.
-
-
-Package natbib Warning: Citation `Metcalfe03c' on page 2 undefined on input lin
-e 124.
-
-
-Package natbib Warning: Citation `BishoffKim14' on page 2 undefined on input li
-ne 140.
-
-[2]
-
-Package natbib Warning: Citation `Dreizler98' on page 3 undefined on input line
- 153.
-
-
-Package natbib Warning: Citation `Herwig99' on page 3 undefined on input line 1
-53.
-
-
-Package natbib Warning: Citation `Bishoff-Kim14' on page 3 undefined on input l
-ine 162.
-
-
-Package natbib Warning: Citation `Sullivan08' on page 3 undefined on input line
- 162.
-
-
-Package natbib Warning: Citation `Metcalfe03c' on page 3 undefined on input lin
-e 162.
-
-
-LaTeX Warning: Reference `aster' on page 3 undefined on input line 168.
-
-
-Package natbib Warning: Citation `Winget82' on page 3 undefined on input line 1
-73.
-
-
-Package natbib Warning: Citation `Provencal09' on page 3 undefined on input lin
-e 174.
-
-
-Package natbib Warning: Citation `Kepler03' on page 3 undefined on input line 1
-74.
-
-
-Package natbib Warning: Citation `Winget94' on page 3 undefined on input line 1
-74.
-
-
-Package natbib Warning: Citation `Provencal12' on page 3 undefined on input lin
-e 181.
-
-
-Package natbib Warning: Citation `Dalessio10' on page 3 undefined on input line
- 187.
+LaTeX Warning: Reference `aster' on page 3 undefined on input line 167.
 
 [3]
-
-Package natbib Warning: Citation `wqed' on page 4 undefined on input line 192.
-
-
-Package natbib Warning: Citation `Provencal09' on page 4 undefined on input lin
-e 205.
-
 Plotone included the file terskol
 File: terskol.eps Graphic file (type eps)
 <terskol.eps>
 Plotone included the file gd358multidft
 File: gd358multidft.eps Graphic file (type eps)
-<gd358multidft.eps>
-
-Package natbib Warning: Citation `Provencal09' on page 4 undefined on input lin
-e 246.
-
-
-Package natbib Warning: Citation `Provencal09' on page 4 undefined on input lin
-e 248.
-
-
-Package natbib Warning: Citation `Kepler03' on page 4 undefined on input line 2
-48.
-
-
-Package natbib Warning: Citation `Winget94' on page 4 undefined on input line 2
-48.
-
-
-Package natbib Warning: Citation `Winget82' on page 4 undefined on input line 2
-48.
-
-
-Package natbib Warning: Citation `Lenz05' on page 4 undefined on input line 250
-.
-
-
-Package natbib Warning: Citation `Provencal12' on page 4 undefined on input lin
-e 251.
-
-
-Package natbib Warning: Citation `Provencal09' on page 4 undefined on input lin
-e 257.
-
-
-Package natbib Warning: Citation `Provencal09' on page 4 undefined on input lin
-e 259.
-
-[4]
+<gd358multidft.eps> [4]
 Plotone included the file noise
 File: noise.eps Graphic file (type eps)
-<noise.eps>
-
-Package natbib Warning: Citation `Provencal09' on page 5 undefined on input lin
-e 281.
-
-
-Package natbib Warning: Citation `Kleinman98' on page 5 undefined on input line
- 296.
-
-[5]
+<noise.eps> [5]
 Plotone included the file gd358multif_2015.eps
 File: gd358multif_2015.eps Graphic file (type eps)
 <gd358multif_2015.eps>
-
-Package natbib Warning: Citation `Provencal09' on page 6 undefined on input lin
-e 321.
-
 Plotone included the file gd358k17_k8.eps
 File: gd358k17_k8.eps Graphic file (type eps)
-<gd358k17_k8.eps>
-
-Package natbib Warning: Citation `Bell15' on page 6 undefined on input line 339
-.
-
-[6]
+<gd358k17_k8.eps> [6]
 Plotone included the file modethick.eps
 File: modethick.eps Graphic file (type eps)
 <modethick.eps>
 
-Package natbib Warning: Citation `Montgomery10' on page 7 undefined on input li
-ne 364.
-
-
-Package natbib Warning: Citation `Provencal09' on page 7 undefined on input lin
-e 364.
-
-
-Package natbib Warning: Citation `Metcalfe00' on page 7 undefined on input line
- 364.
-
-
-Package natbib Warning: Citation `Winget94' on page 7 undefined on input line 3
-64.
-
-
-Package natbib Warning: Citation `Kotak02' on page 7 undefined on input line 36
-7.
-
-
-Package natbib Warning: Citation `Castanheira05' on page 7 undefined on input l
-ine 367.
-
-
-Package natbib Warning: Citation `Brickhill92' on page 7 undefined on input lin
-e 374.
-
-
-Package natbib Warning: Citation `Brassard95' on page 7 undefined on input line
- 374.
-
-
-Package natbib Warning: Citation `Wu01' on page 7 undefined on input line 374.
-
-
-Package natbib Warning: Citation `Ising01' on page 7 undefined on input line 37
-4.
-
-
-Package natbib Warning: Citation `Wu01' on page 7 undefined on input line 375.
-
-
-Package natbib Warning: Citation `Provencal12' on page 7 undefined on input lin
-e 379.
-
-
-Package natbib Warning: Citation `Montgomery10' on page 7 undefined on input li
-ne 379.
-
-
-LaTeX Warning: Reference `amps' on page 7 undefined on input line 386.
+LaTeX Warning: Reference `amps' on page 7 undefined on input line 385.
 
 Plotone included the file modeamps.eps
 File: modeamps.eps Graphic file (type eps)
 <modeamps.eps>
 
-LaTeX Warning: Reference `tl' on page 7 undefined on input line 404.
+LaTeX Warning: Reference `tl' on page 7 undefined on input line 403.
 
 
-LaTeX Warning: Reference `astero' on page 7 undefined on input line 406.
+LaTeX Warning: Reference `astero' on page 7 undefined on input line 405.
 
-[7]
-
-Package natbib Warning: Citation `Lamb75' on page 8 undefined on input line 427
-.
-
-
-Package natbib Warning: Citation `Wood90' on page 8 undefined on input line 428
-.
-
-
-Package natbib Warning: Citation `Salaris97' on page 8 undefined on input line 
-429.
-
-
-Package natbib Warning: Citation `Fontaine77' on page 8 undefined on input line
- 430.
-
-
-Package natbib Warning: Citation `Saumon95' on page 8 undefined on input line 4
-31.
-
-
-Package natbib Warning: Citation `Iglesias96' on page 8 undefined on input line
- 431.
-
-
-Package natbib Warning: Citation `Itoh96' on page 8 undefined on input line 432
-.
-
-
-Package natbib Warning: Citation `Dehner95' on page 8 undefined on input line 4
-35.
-
-
-Package natbib Warning: Citation `Althaus05' on page 8 undefined on input line 
-435.
-
-
-Package natbib Warning: Citation `Metcalfe05a' on page 8 undefined on input lin
-e 438.
-
-[8]
-
-LaTeX Warning: Reference `fitt1' on page 9 undefined on input line 453.
-
-
-Package natbib Warning: Citation `Bischoff-Kim11a' on page 9 undefined on input
- line 455.
-
-
-Package natbib Warning: Citation `Bischoff-Kim14' on page 9 undefined on input 
-line 455.
-
-
-LaTeX Warning: Reference `fitt1' on page 9 undefined on input line 458.
-
-
-Package natbib Warning: Citation `Bischoff-Kim14' on page 9 undefined on input 
-line 485.
-
-
-Package natbib Warning: Citation `Castanheira09' on page 9 undefined on input l
-ine 485.
-
-
-Package natbib Warning: Citation `Charpinet08' on page 9 undefined on input lin
-e 485.
-
-[9]
+[7] [8] (./gd358fit.tex
+Page 1 of table 2 has been set to width 320.789pt with 34 lines per page 
+) [9] [10]
 Plotone included the file ffit2.eps
 File: ffit2.eps Graphic file (type eps)
-<ffit2.eps> [10]
-
-LaTeX Warning: Reference `fitt1' on page 11 undefined on input line 566.
-
-
-LaTeX Warning: Reference `fitt1' on page 11 undefined on input line 568.
-
+<ffit2.eps> [11]
 Plotone included the file ffit3.eps
 File: ffit3.eps Graphic file (type eps)
 <ffit3.eps>
-
-Package natbib Warning: Citation `Dehner95' on page 11 undefined on input line 
-604.
-
 Plotone included the file ffit4.eps
 File: ffit4.eps Graphic file (type eps)
 <ffit4.eps>
-
-LaTeX Warning: Reference `fitt1' on page 11 undefined on input line 622.
-
 Plotone included the file ffit1.eps
 File: ffit1.eps Graphic file (type eps)
-<ffit1.eps> [11] [12]
+<ffit1.eps> [12] [13] (./msnew.bbl [14] [15]) [16] [17] [18] [19] [20] [21]
+[22] [23] [24]
+Page 1 of table 3 has been set to width 255.0623pt with 36 lines per page 
 
-Package natbib Warning: Citation `Montgomery03' on page 13 undefined on input l
-ine 647.
-
-No file msnew.bbl.
-[13] [14] [15] [16] [17] [18] [19] [20] [21]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.684 \startdata
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(./journaldata.tex
-Page 1 of table 1 has been set to width 326.0245pt with 36 lines per page 
-
-LaTeX Warning: Float too large for page by 46.0421pt on input line 37.
-
-[22]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \tablebreak
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 2 of table 1 has been set to width 325.26405pt with 36 lines per page 
-
-LaTeX Warning: Float too large for page by 96.46573pt on input line 78.
-
-[23]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \tablebreak
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 3 of table 1 has been set to width 340.01619pt with 36 lines per page 
-
-LaTeX Warning: Float too large for page by 21.66539pt on input line 114.
-
-[24]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 4 of table 1 has been set to width 313.70572pt with 36 lines per page 
-[25]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 5 of table 1 has been set to width 340.01619pt with 36 lines per page 
-[26]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 6 of table 1 has been set to width 331.37787pt with 36 lines per page 
-
-LaTeX Warning: Float too large for page by 96.46573pt on input line 218.
-
-[27]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.218 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 7 of table 1 has been set to width 331.34744pt with 36 lines per page 
-[28]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-Table 1 has been set to width 325.2945pt
-
-Overfull \hbox (325.2945pt too wide) in paragraph at lines 250--687
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 685--688
  [][][] 
  []
 
-[29] (./1982freq.tex
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \startdata
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 1 of table 1 has been set to width 300.72688pt with 34 lines per page 
-[30]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 \tablebreak
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 2 of table 1 has been set to width 300.72688pt with 34 lines per page 
-
-LaTeX Warning: Float too large for page by 76.08543pt on input line 84.
-
-[31]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \tablebreak
-                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 3 of table 1 has been set to width 310.51845pt with 34 lines per page 
-[32]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 4 of table 1 has been set to width 311.66289pt with 34 lines per page 
-
-LaTeX Warning: Float too large for page by 76.08543pt on input line 155.
-
-[33]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 5 of table 1 has been set to width 311.66289pt with 34 lines per page 
-[34]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Page 6 of table 1 has been set to width 311.66289pt with 34 lines per page 
-
-LaTeX Warning: Float too large for page by 12.28514pt on input line 221.
-
-[35]
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 \tablebreak
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Table 1 has been set to width 306.60182pt
-
-Overfull \hbox (306.60182pt too wide) in paragraph at lines 221--260
- [][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 48.20193pt on input line 260.
-
-) [36] (./2011freq.tex
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \startdata
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.49 $1121.901\om
-                 0.005$ & 891.34 &$12.6\pm0.15$ & 26.6\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.54 $1236.278\pm0.003$ & 808.88 &$18.9\0
-                                         m0.15$ & 39.7\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.68 $2362.603\om
-                 0.017$ & 423.26 &$3.19\pm0.15$& 6.7\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.150 ....782/pm0.010 $ & 853.40 & $2.96\pm0.17$ &
-                                                   8.0\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-Table 1 has been set to width 473.12389pt
-
-Overfull \hbox (473.12389pt too wide) in paragraph at lines 11--199
- [][][] 
- []
-
-
-LaTeX Warning: Float too large for page by 2133.46141pt on input line 199.
-
-) [37] (./gd358fit.tex
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \startdata
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Table 1 has been set to width 362.22899pt
-) [38] (./fitt1.tex
-
-! Package array Error:  Illegal pream-token (\string): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \startdata
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Table 1 has been set to width 396.3732pt
-
-Overfull \hbox (396.3732pt too wide) in paragraph at lines 13--25
- [][][] 
- []
-
-) [39]
-
-Package natbib Warning: There were undefined citations.
-
-(./msnew.aux)
+[25] (./fitt1.tex
+Page 1 of table 4 has been set to width 432.97145pt with 34 lines per page 
+) [26] (./msnew.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -926,12 +302,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2438 strings out of 495029
- 30534 string characters out of 6181523
- 118544 words of memory out of 5000000
- 5590 multiletter control sequences out of 15000+600000
+ 2466 strings out of 495029
+ 31522 string characters out of 6181523
+ 97796 words of memory out of 5000000
+ 5629 multiletter control sequences out of 15000+600000
  13885 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,10n,28p,1055b,284s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,1055b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on msnew.dvi (39 pages, 111208 bytes).
+Output written on msnew.dvi (26 pages, 60208 bytes).

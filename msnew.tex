@@ -19,10 +19,9 @@
 \shorttitle{Asteroseismology of GD358}
 \shortauthors{Bischoff-Kim}
 \usepackage{graphicx}
-\usepackage{array}
+%\usepackage{array} %Don't activate doesn't play nice with deluxe tables!!!
 \usepackage{epsfig}
 \usepackage[outdir=./]{epstopdf}
-\usepackage{deluxetable}
 %\usepackage{ulem}
 %\usepackage{booktab}
 %\usepackage{natbib}
@@ -33,7 +32,7 @@
 
 \title{Asteroseismology of GD358 with complex C/O core profiles}
 
-\author {Agn\'es~Bischoff-Kim\altaffilmark{1},
+\author {Agn\`es~Bischoff-Kim\altaffilmark{1},
 J.~L. Provencal\altaffilmark{2,3},
 M.~H.~Montgomery\altaffilmark{3,4},
 Samuel~T.~Harrold\altaffilmark{4},
@@ -137,7 +136,7 @@ We present a new detailed asteroseismic analysis of GD358, taking advantage of
 its long sequence of $\ell=1$ modes to better constrain the asteroseismic fits and 
 define the limits of high precision white dwarf asteroseismology.  Our goals are two-fold.  
 First, we will incorporate advanced asteroseismic models to explore parameter space 
-\citet{BishoffKim14}. For example, the even period spacing observed in GD358's 
+\citet{BischoffKim14}. For example, the even period spacing observed in GD358's 
 pulsation spectrum is consistent with the theory of g-mode non-radial pulsations. The 
 magnitude of the spacing is expected to be related to how compressible the stellar 
 interior is. The compressibility of the interior should be inversely proportional to the 
@@ -159,7 +158,7 @@ overlying the remainder of the uniform He/C/O envelope, all above the degenerate
 A key prediction of the diffusion models is that, for a given stellar mass, the pure He 
 surface layer will steadily grow thicker as the DB star cools.  GD358 is the fourth DBV 
 we can use to check this theory. The other three DBVs 
-(\citet{Bishoff-Kim14,Sullivan08, Metcalfe03c}) have painted a picture consistent with 
+(\citet{Bischoff-Kim14,Sullivan08, Metcalfe03c}) have painted a picture consistent with 
 the diffusion calculations, with the hotter best fit models having thinner pure helium 
 layers. With GD358, we seek to confirm this trend qualitatively.
 
@@ -450,6 +449,8 @@ $M_{\rm env}$ and $M_{\rm He}$ are mass coordinates, defined as e.g.
 $M_{\rm env} = -\log(1 - M(r)/M_*)$, where $M(r)$ is the mass enclosed in radius r and 
 $M_*$ is the stellar mass. 
 
+\input{gd358fit.tex} % label is gd358freq
+
 We started with a master grid (table \ref{fitt1}) chosen so that it covered all relevant 
 area of parameter space and had sufficient resolution, based on previous experience 
 \citep{Bischoff-Kim11a,Bischoff-Kim14} to find any region of local minimum in the fitness parameter, 
@@ -682,17 +683,16 @@ We calibrated our models.
 \colhead{} & \colhead{} & \colhead{} & \colhead{} & \colhead{(hrs)}
 \label{journal}}
 \startdata
-\input{journaldata.tex}
+%\input{journaldata.tex}
 \enddata
 \end{deluxetable}
 
 \clearpage
 
-\input{1982freq.tex}
+%\input{1982freq.tex}
 \clearpage
-\input{2011freq.tex}
+%\input{2011freq.tex}
 \clearpage
-\input{gd358fit.tex} % label is gd358freq
 \clearpage
 \input{fitt1} % label is fitt1
 \clearpage
