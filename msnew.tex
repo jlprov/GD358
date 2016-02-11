@@ -19,7 +19,7 @@
 \shorttitle{Asteroseismology of GD358}
 \shortauthors{Bischoff-Kim}
 \usepackage{graphicx}
-\usepackage{array}
+%\usepackage{array} %Don't activate doesn't play nice with deluxe tables!!!
 \usepackage{epsfig}
 \usepackage[outdir=./]{epstopdf}
 %\usepackage{ulem}
@@ -32,7 +32,7 @@
 
 \title{Asteroseismology of GD358 with complex C/O core profiles}
 
-\author {Agn\'es~Bischoff-Kim\altaffilmark{1},
+\author {Agn\`es~Bischoff-Kim\altaffilmark{1},
 J.~L. Provencal\altaffilmark{2,3},
 M.~H.~Montgomery\altaffilmark{3,4},
 Samuel~T.~Harrold\altaffilmark{4},
@@ -136,7 +136,7 @@ We present a new detailed asteroseismic analysis of GD358, taking advantage of
 its long sequence of $\ell=1$ modes to better constrain the asteroseismic fits and 
 define the limits of high precision white dwarf asteroseismology.  Our goals are two-fold.  
 First, we will incorporate advanced asteroseismic models to explore parameter space 
-\citet{BishoffKim14}. For example, the even period spacing observed in GD358's 
+\citet{BischoffKim14}. For example, the even period spacing observed in GD358's 
 pulsation spectrum is consistent with the theory of g-mode non-radial pulsations. The 
 magnitude of the spacing is expected to be related to how compressible the stellar 
 interior is. The compressibility of the interior should be inversely proportional to the 
@@ -158,7 +158,7 @@ overlying the remainder of the uniform He/C/O envelope, all above the degenerate
 A key prediction of the diffusion models is that, for a given stellar mass, the pure He 
 surface layer will steadily grow thicker as the DB star cools.  GD358 is the fourth DBV 
 we can use to check this theory. The other three DBVs 
-(\citet{Bishoff-Kim14,Sullivan08, Metcalfe03c}) have painted a picture consistent with 
+(\citet{Bischoff-Kim14,Sullivan08, Metcalfe03c}) have painted a picture consistent with 
 the diffusion calculations, with the hotter best fit models having thinner pure helium 
 layers. With GD358, we seek to confirm this trend qualitatively.
 
@@ -402,10 +402,6 @@ determine the l=0 component for each band is simply to average the frequencies i
 with numerous weighting techniques, and determined there is no significant difference in our solutions.  
 Our final frequency identification for each band is given in Table~\ref{tl}.  
 
-
-\section{Pulsational properties}
-\label{prop}
-
 \section{Asteroseismic fitting}\ref{astero}
 \label{fitting}
 
@@ -440,19 +436,6 @@ the carbon has not fully settled into the core of the star yet. We expect the he
 be separated into a mixed He/C layer with a pure He layer on top, as shown in Fig. \ref{ffit1}. 
 Following  \citet{Metcalfe05a}, we adopted and parameterized this structure in our models. 
 
-\begin{figure}
-%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
-%  {\includegraphics[width=1.0\columnwidth]{ffit1.eps}}
-\plotone{ffit1.eps}
-\caption{
-{\em Upper panel:} Chemical composition profiles of our models to illustrate the parameterization 
-of the internal chemical structure. The center of the model is to the left and the surface to 
-the right.  $q=2$ corresponds to $M_r = 0.99 \: M_*$. The vertical axis shows fractional abundances. 
-{\em Lower panel:} The corresponding \bvf frequency ($\log{N^2}$ on the vertical axis). Each 
-chemical transition leads to a bump in the \bvf frequency. \label{ffit1}
-}
-\end{figure}
-
 \subsection{Initial grid search}
 \label{grids}
 
@@ -466,14 +449,14 @@ $M_{\rm env}$ and $M_{\rm He}$ are mass coordinates, defined as e.g.
 $M_{\rm env} = -\log(1 - M(r)/M_*)$, where $M(r)$ is the mass enclosed in radius r and 
 $M_*$ is the stellar mass. 
 
-
+\input{gd358fit.tex} % label is gd358freq
 
 We started with a master grid (table \ref{fitt1}) chosen so that it covered all relevant 
 area of parameter space and had sufficient resolution, based on previous experience 
 \citep{Bischoff-Kim11a,Bischoff-Kim14} to find any region of local minimum in the fitness parameter, 
 but was small enough to be computationally manageable. The master grid involved the computation 
 of 10,483,200 models. We fit simultaneously all 15 periods, requiring all of them to be $\ell=1$ 
-modes. The results of this initial fit are shown in the left panel of figure \ref{ffit2}.
+modes. A fitness map of this initial fit are shown in the left panel of figure \ref{ffit2}, and the parameters of the best fit model are listed in table \ref{fitt1}.
 
 \subsection{Asymptotic period spacing}
 \label{periodspacing}
@@ -495,7 +478,7 @@ where $r_1$ and $r_2$ are turning points of the mode and N is the Brunt-V\"{a}is
 The asymptotic period spacing is $\ell$ dependent, with higher $\ell$ modes having smaller spacing. 
 In the case of GD 358, we have a single $\ell=1$ sequence so we only need to worry about the dependence 
 of the asymptotic period spacing on the \bvf frequency. Much if not all of GD 358's pulsation 
-spectrum is in the asymptotic limit, because the shortest period observed is a $k=8$ mode.
+spectrum is close to the asymptotic limit, because the shortest period observed is a $k=8$ mode.
 
 The dependence of $\Delta P$ on the \bvf frequency leads to higher mass and lower temperature models 
 having a smaller period spacing (their interior is less compressible). This effect appears in asteroseismic 
@@ -542,8 +525,8 @@ pictured on the plot have $\left|\Delta P_{\rm obs}- \Delta P_{\rm calc}\right| 
 \end{figure}
 
 One can fit simultaneously the average period spacing and the individual periods 
-formally while performing the fits by using some prescription to calculate the fitness parameter 
-{Travis,canadians?}. This leads to a more complex relation than defined in equation \ref{fiteq1}. 
+formally while performing the fits by using some prescription to calculate the goodness of fit. 
+This leads to a more complex relation than defined in equation \ref{fiteq1}. 
 Note that the period spacing is a much weaker constraint than the individual period fit. 
 If one takes 4 seconds as an upper limit for fitness, that includes a single point in the 
 period-by-period fit plot (left panel in Fig \ref{ffit2}), but the entire parameter plane 
@@ -551,7 +534,7 @@ for the average period spacing fit plot (right panel). We bypass the difficulty 
 assigning proper weights to each constraint by taking the average period spacing fit into 
 account as an initial step to refine our fits. We refine our fits by calculating models on 
 a higher resolution grid that fall within the region defined by the two diagonal lines shown 
-in the right panel of figure \ref{ffit2}, then performing a period-by-period fit using 
+in the right panel of figure \ref{ffit2} (covering the effective temperature range 25,000~K-27,500~K, then performing a period-by-period fit using 
 equation \ref{fiteq1}.
 
 %If we now look for the models that have $\Delta P_{\rm calc} = \Delta P_{\rm obs} = 39.08$ s 
@@ -568,6 +551,8 @@ equation \ref{fiteq1}.
 %We confidently move on to our period-by-period fitting.
 
 \subsection{Determining the best grid resolution for refined fits}
+\label{refinedfits}
+
 
 Having determined a more restricted region of parameter space to search for 
 the best fit models, we now turn to the question of how fine we need to 
@@ -579,8 +564,7 @@ save, and process.
 One way to gain a sense of how fine the grid needs to be is to make single 
 parameter cuts through parameter space. Fig.  \ref{ffit3} shows such a cut 
 for master grid models. The plot was made by fixing 5 of the 6 parameters 
-to their best fit value 
-($M_*=0.590 M_{\odot}$, $M_{\rm env}=2.40$, $M_{\rm He}=5.15$, $X_o=0.45$, and $q_{\rm fm}=0.15$). 
+to the best fit values of the best initial fit (see table \ref{fitt1}).
 We allowed the effective temperature to vary through the entire range 
 considered for the master grid (table \ref{fitt1}). One can see that the 
 fits are generally poor, though they do seem to settle to a minimum in a 
@@ -636,8 +620,33 @@ to the best fit model. \label{ffit4}
 
 \section{Results of the period fitting}
 
+The parameters for our best fit model based on the refined grid are listed in table \ref{fitt1} and the periods of that model in table \ref{gd}. The goodness of fit of the model is $sig_RMS = 4.22 s$. In Fig. \ref{ffit1}, we show the interior structure of the best fit model, with the corresponding \bvf frequency profile.
+
+\begin{figure}
+%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
+%  {\includegraphics[width=1.0\columnwidth]{ffit1.eps}}
+\plotone{ffit1.eps}
+\caption{
+{\em Upper panel:} Chemical composition profiles of the best fit model. The center of the model is to the left and the surface to the right.  $q=2$ corresponds to $M_r = 0.99 \: M_*$. The vertical axis shows fractional abundances. 
+{\em Lower panel:} The corresponding \bvf frequency ($\log{N^2}$ on the vertical axis). \label{ffit1}
+}
+\end{figure}
+
+\subsection{Validation of the fitting method}
+
+With what we have discovered in section \ref{refinedfits}, it is only natural to be concerned about whether we have truly found a best fit. We performed a simple test to validate our fitting method, which consisted of using the exact same procedure to find a best fit to the periods of a model that was not on any of the grids we calculated, but that did have parameters that were very close to the best fit model. We used the period list for a model with parameters ${\rm T_{eff}}=25570$~K, $M_*/M_\odot=0.5437$, $M_{\rm He}=-5.30$, $X_o=0.42$, and $q_{\rm fm}=0.175$, fixing $M_{\rm env}$ to -2.80, including only the subset of 15 $\ell=1$ periods that match GD358's pulsation spectrum.
+
+We first performed a fitting of the periods using the master (coarse) grid described in section \ref{grids}. This placed the best fit model in the appropriate region of parameter space. Then we refined our fits, using the grids described at the end of section \ref{periodspacing}. We are able to recover the best fit parameters adequately, with the top 10 best fit models having parameters ${\rm T_{eff}}=25620 \pm 67$~K, $M_*/M_odot=0.5431 \pm 0.0011$, $M_{\rm He}=-5.32 \pm 0.098$, $X_o=0.40$ for all top 10 fits, and $q_{\rm fm}=0.175 \pm 0.5$. The top 10 best fits have \sigrms $\sim$ 0.5~s. We remind the reader that the step sizes in the second phase of the fitting are 20~K for ${\rm T_{eff}}$, 0.2 for $M_{\rm He}$, 0.2 for $X_o$, and 0.01 for $q_{\rm fm}$.
+
 \section{Discussion and Conclusions}
 \label{discussion}
+
+In fitting GD358, we discovered that the best fit parameter space was semi-chaotic, with two very close sets of parameters able to yield very different fitness number. This is due to the fact that some periods can change values drastically for a small change in a given parameter. The phenomenon is only semi-chaotic, as the period will oscillate between two values. This is good news, because there remains a well defined minimum in parameter space, even if it is a double valued minimum. Any search algorithm that uses a small enough mesh should be able to find the minimum. This phenomenon likely became apparent while fitting GD358 because with that star, we are fitting a long consecutive sequence of modes of the same ell.
+
+We have performed and published a preliminary fit of the star (Hawaii proceedings), where we found a temperature of 23,600 K, a mass of 0.605 $M_\odot$, \menv = -2.40, \mhe = -5.20, a central oxygen abundance of 0.99, and \qfm = 0.50. In the preliminary fits, the period list was not finalized and we did not include the 1065.260 s mode, because it was difficult to fit and we did not have a positive ell identification for the mode. It might be disheartening to observe such a big difference in the best fit parameters by just including or excluding one mode out of 15, but it is worth noting that the thickness of the pure helium layer was not affected much by the inclusion or exclusion of the 15th mode and refinements done in the search in this work. We emphasize again that in the final stages of our fitting for this work, we fixed the envelope mass to -2.80.
+
+In section \ref{periodspacing}, we discussed the degeneracy in the determination of the mass and effective temperature parameters. That degeneracy means that a unique determination of effective temperature and mass is not always possible.  The fits are also marginally sensitive to the central oxygen abundance. What is surprising is the big difference in the determination of the location of the edge of the homogeneous C/O core from our preliminary fits to the refined fits presented in this paper. If we take the best fit model from the preliminary work and include the 15th period when calculating the fitness number, the quality of the fit becomes significantly worse (2.84 s to 5.12 s). We would not expect a k=24 mode to be strongly trapped in the core, quite the contrary. This could be due to a core-envelope symmetry \citep{Montgomery03}, but more detailed studies would be required to make a more definitive statement. We should also keep in miind that the period lists used in the fits were close but not identical.
+
 
 Lessons learned: how fine a grid must be. CAUTION with pipeline fitting. we learn that one must 
 exert extreme caution in any automated pipeline-type fitting of white dwarf stars.
@@ -674,17 +683,16 @@ We calibrated our models.
 \colhead{} & \colhead{} & \colhead{} & \colhead{} & \colhead{(hrs)}
 \label{journal}}
 \startdata
-\input{journaldata.tex}
+%\input{journaldata.tex}
 \enddata
 \end{deluxetable}
 
 \clearpage
 
-\input{1982freq.tex}
+%\input{1982freq.tex}
 \clearpage
-\input{2011freq.tex}
+%\input{2011freq.tex}
 \clearpage
-\input{gd358freqtab.tex} % label is gd358freq
 \clearpage
 \input{fitt1} % label is fitt1
 \clearpage
