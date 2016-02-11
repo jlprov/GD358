@@ -61,7 +61,7 @@ D.~Koziel-Wierzbowska{10,11},
 T.~Kundera\altaffilmark{10,11},
 D. Jableka\altaffilmark{10,11},
 B. Debski\altaffilmark{10,11},
-S. Meingast\altaffilmark{12},
+S. Meingast\altaffilmark{12}
 }
 \altaffiltext{1}{Penn State Worthington Scranton, Dunmore, PA 18512; axk55@psu.edu}
 \altaffiltext{2}{University of Delaware, Department of Physics and Astronomy
@@ -111,11 +111,12 @@ effective temperatures ranging between 21,000 K and 28,000 K \citep{Beauchamp99,
 
 The subject of this paper, GD358 (V777 Her) is the brightest ($m_{\rm v}=13.7$) and best 
 studied helium atmosphere white dwarf pulsator. It is located near the red edge of the 
-instability strip (\teff = , \logg =). GD358's pulsation spectrum contains a series of 
-independent modes, many with complex multiplet structure.  Models involving magnetic 
-fields have been proposed to explain that structure \citep{Montgomery10}. Of importance for
+instability strip, with \teff of 24000~K and \logg of 7.8 \citep{Koester2013}. GD358's 
+pulsation spectrum contains a series of independent modes, many with complex 
+frequency structure.  Models involving magnetic fields and oblique rotation have been 
+proposed to explain that structure \citep{Montgomery10}. Of importance for
 this work is the fact that the spacing of the multiplets is consistent with theoretical 
-predictions for a series of $l=1$ modes \citep{Provencal09}.
+predictions for a series of $\ell=1$ modes \citep{Provencal09}.
 
 Paradoxally, among the DBVs that have enough detected periods to be fitted 
 asteroseismically, GD358 is the only one that has not been analyzed using the complex 
@@ -136,7 +137,7 @@ We present a new detailed asteroseismic analysis of GD358, taking advantage of
 its long sequence of $\ell=1$ modes to better constrain the asteroseismic fits and 
 define the limits of high precision white dwarf asteroseismology.  Our goals are two-fold.  
 First, we will incorporate advanced asteroseismic models to explore parameter space 
-\citet{BischoffKim14}. For example, the even period spacing observed in GD358's 
+\citep{BischoffKim14}. For example, the even period spacing observed in GD358's 
 pulsation spectrum is consistent with the theory of g-mode non-radial pulsations. The 
 magnitude of the spacing is expected to be related to how compressible the stellar 
 interior is. The compressibility of the interior should be inversely proportional to the 
@@ -164,7 +165,7 @@ layers. With GD358, we seek to confirm this trend qualitatively.
 
 In Section \ref{data}, we present our new observations and outline the data reduction process.  
 In Section \ref{freq}, we establish the framework for frequency identification, and present the 
-list of frequencies used for the asteroseismic investigation.  Section \ref{aster} outlines the 
+list of frequencies used for the asteroseismic investigation.  Section \ref{fitting} outlines the 
 asteroseismic investigation, and .....
 
 \section {New Observations and Data Reduction}\label{data}
@@ -175,7 +176,7 @@ New observations presented here include 254 individual observing runs (1105.1 hr
 2007-2015 (Table \ref{journal}. Each season of observations was obtained as part of 
 multisite WET campaigns. 
 
-Standard procedure for WET observations calls for observers to transfer raw images and 
+Standard WET procedure calls for observers to transfer raw images and 
 calibration files to WET headquarters for analysis at the end of each local night. CCD 
 data reduction follows the steps described in \citet{Provencal12}. In brief, the new observations 
 were obtained with different CCD photometers, each with distinct effective bandpasses. 
@@ -188,7 +189,7 @@ aperture sizes for the target and comparison stars. For each individual nightly 
 chose the combination of aperture size and comparison star(s) producing the highest 
 signal/noise light curve. 
 
-We used the WQED pipeline \citet{wqed} to examine each nightly light curve for photometric 
+We used the WQED pipeline \citep{wqed} to examine each nightly light curve for photometric 
 quality, remove outlying points, divide by suitable comparison stars, and correct for 
 differential extinction. Our observational technique is therefore not sensitive to 
 oscillations longer than a few hours. The result is a series of light curves 
@@ -230,7 +231,7 @@ are given in Fig.~\ref{fts}.
 \plotone{gd358multidft}
 \caption{Fourier Transforms of GD358 for the 2010, 2011, and 2014 observing seasons.
 The frequency range of the observed series of $\ell=1$ modes discussed in Section \ref{analysis} 
-is indicated by the left arrow (red).  Peaks below $\approx$ 2400 \muHz are combination 
+is indicated by the left arrow (red).  Peaks below $\approx$ 2400 \muHz\ are combination 
 frequencies discussed in Section \ref{analysis} (right arrow, blue). 
 (A color version of this figure is available in the online journal.)
 \label{fts}
@@ -292,7 +293,7 @@ does not change on the timescales of the observations, we can assume that GD358 
 different subsets of its available pulsations at different times. While this is a common phenomenon
 seen in white dwarf pulsators, the selection mechanism remains mysterious. The best way to 
 determine GD358's complete set of pulsation frequencies is to combine frequency identifications 
-from multiple observing seasons as outlined in \citep{Kleinman98}.  
+from multiple observing seasons as outlined in \citet{Kleinman98}.  
 
 \begin{figure}
 \epsscale{0.8}
@@ -303,7 +304,7 @@ from multiple observing seasons as outlined in \citep{Kleinman98}.
 \plotone{gd358multif_2015.eps}
 \caption{A schematic representation of GD358's pulsation modes for all available data between
 1982 and 2015. Systematic patterns of distribution are evident. The bands between 2400 and 1000
-\muHz (400 and 1000 s) are of particular importance for this work. (A color version of this 
+\muHz\ (400 and 1000 s) are of particular importance for this work. (A color version of this 
 figure is available in the online journal.)
 \label{schematic}
 }
@@ -311,7 +312,7 @@ figure is available in the online journal.)
 
 Figure~\ref{schematic} presents a schematic representation of GD358's pulsation frequencies for all the 
 available data. The features of asteroseismic importance are the localized bands between 900 and 2400
-\muHz (1100 and 400 s). We interpret each band to represent a single radial overtone in GD358. The bands
+\muHz\ (1100 and 400 s). We interpret each band to represent a single radial overtone. The bands
 themselves illustrate the second way in which GD358's frequencies vary. Each band consists of 
 frequency detections from multiple observing seasons, but each band is significantly wider in 
 frequency space than the frequency error of any single measurement, arguing that some process 
@@ -326,27 +327,28 @@ signatures of rotational splitting.
  \epsscale{1.0}
  \plotone{gd358k17_k8.eps}
 % \plottwo{gd358multifk17.eps}{gd358multifk8.eps}
- \caption{The detailed schematic distribution of frequencies for the bands near 1300 {\em{right}}
- and 2360 \muHz {\em{left}}. The 1300 \muHz band shows no multiplet structure, unlike the 2360 \muHz
+ \caption{The detailed schematic distribution of frequencies for the bands near 1300({\em{right}}
+ and 2360 \muHz\ ({\em{left}}). The 1300 \muHz\ band shows no multiplet structure, unlike the 2360 \muHz\
  band. Here we see clear evidence of multiplet structure. Assuming the triplet structure represents
- $l=1$, this implies a rotation period of $\approx 1.5$ days. Note changes in the scale for both axes.
+ $\ell=1$, this implies a rotation period of $\approx 1.5$ days. Note changes in the scale for both axes.
  (A color version of this figure is available in the online journal.)
  \label{rot}}
 \end{figure}
 
 Figure \ref{schematic} also shows that the widths of the bands is not constant, but changes from band to band.
-\citet{Bell15} presents an interesting analysis of the hydrogen atmosphere pulsator (DAV) \kicnsp 4552982, 
+\citet{Bell15} presents an interesting analysis of the hydrogen atmosphere pulsator (DAV) KIC4552982, 
 in which they identify 17 bands of pulsation frequencies. This DAV follows the general pattern exhibited 
 by GD358: the highest frequency (shortest period) mode shows evidence of rotational splitting, while the 
 lower frequency (longer period) modes are complex bands. The authors note that this DAV's bands have 
 different widths in frequency space, and that there may be astronomical significance to this. Although the 
-observational timebases are quite different (20 months for \kicnsp 4552982 vs 30 years for GD358), our 
-data presents the opportunity to investigate this for a DB pulsator.  We measured the width of each of 
-GD358's band. We define ''width'' as the difference between the lowest and highest frequency 
-detected in each band. Figure \ref{thick} presents the results. The widths of GD358's bands are 
-commensurate with those found in \kicnsp 4552982.  We also find a general increase in width with 
-decreasing frequency (increasing period), until we reach the mode at 1238\muHz (807 s). This band has 
-a width at least twice as wide as any other.  What is different about this mode???
+observational timebases and coverage are quite different (20 continuous months for KIC4552982 vs 30 
+incomplete years for GD358), our data presents the opportunity to investigate this for a DB pulsator.  
+We measured the width of each of GD358's band. We define ''width'' as the difference between the 
+lowest and highest frequency detected in each band. Figure \ref{thick} presents the results. 
+The widths of GD358's bands are commensurate with those found in KIC4552982.  We also find a general 
+increase in width with decreasing frequency (increasing period), until we reach 
+the mode at 1238\muHz\ (807 s). This band has a width at least twice as wide as any other.  What 
+is different about this mode???
 
 \begin{figure}
  \epsscale{0.8}
@@ -366,13 +368,13 @@ a series of $l$=1 radial overtones is based mostly on the pulsation frequency di
 and limited spectroscopic analysis \citep{Kotak02, Castanheira05}. It is important to further 
 investigate these identifications as we initiate an indepth asteroseismic investigations.  
 
-GD358's combination frequencies provide a tool by which we can bolster $l$ identifications. 
+GD358's combination frequencies provide a tool by which we can bolster $\ell$ identifications. 
 Combination frequencies are typically observed in the FTs of moderate to large amplitude pulsators.  
 They are identified by their exact numerical relationships with parent frequencies.  
 The combinations themselves are not independent, but result from nonlinear effects associated 
 with the surface convection zone \citep{Brickhill92, Brassard95, Wu01, Ising01}.  
 \citet{Wu01} lays the groundwork, showing that observed amplitudes of the combination 
-frequencies depend on geometric factors such as the $(l,m)$ indices of the parents and the 
+frequencies depend on geometric factors such as the $(\ell,m)$ indices of the parents and the 
 inclination of the pulsation axis to the line of sight.  
 
 The methods outlined in \citet{Provencal12} and \citet{Montgomery10} work best when applied to 
@@ -382,27 +384,27 @@ amplitude than their parents, and so are more difficult to detect in sparse data
 the 1990, 1994, 2006, 2010, 2011, and 2014 observing seasons, and looked at pulsation 
 frequencies with amplitudes above 10 mma.  
 
-Figure~\ref{amps} shows the resulting probability distribution of $l$ and $m$ values for the 1735.96 \muHz
-frequency detected in 2014.   
+Figure~\ref{modeamps} shows the resulting probability distribution of $\ell$ and $m$ values for the 1735.96 \muHz\
+frequency as detected in 2014.   
 
 \begin{figure}
  \epsscale{0.8}
  \plotone{modeamps.eps}
- \caption{Probability distribution (from 0 to 1) of $l$ and $m$ values for the 1735.96 variation detected in 
- 2014.  The solutions are from individual simulations with $Res_{rms}<9.5e-06$. The amplitudes of the 
- observed combination frequencies argue that this is $l$=1, $m$=1.  
+ \caption{Probability distribution (from 0 to 1) of $\ell$ and $m$ values for the 1735.96 variation detected in 
+ 2014.  The solutions are from individual simulations with $Res_{rms}<9.5^{-06}$. The amplitudes of the 
+ observed combination frequencies argue that this is $\ell=1$, $m$=1.  
  \label{modeamps}
  }
 \end{figure}
 
-
+Add table with all l,m ids
 
 Finally, given the $l$=1 identification, but the lack of definite multiplet structure, the best way to 
 determine the l=0 component for each band is simply to average the frequencies in the bands.  We experimented
 with numerous weighting techniques, and determined there is no significant difference in our solutions.  
 Our final frequency identification for each band is given in Table~\ref{tl}.  
 
-\section{Asteroseismic fitting}\ref{astero}
+\section{Asteroseismic fitting}
 \label{fitting}
 
 The basic method in our asteroseismic fitting consists of calculating grids of white dwarf models and 
@@ -449,7 +451,7 @@ $M_{\rm env}$ and $M_{\rm He}$ are mass coordinates, defined as e.g.
 $M_{\rm env} = -\log(1 - M(r)/M_*)$, where $M(r)$ is the mass enclosed in radius r and 
 $M_*$ is the stellar mass. 
 
-\input{gd358fit.tex} % label is gd358freq
+
 
 We started with a master grid (table \ref{fitt1}) chosen so that it covered all relevant 
 area of parameter space and had sufficient resolution, based on previous experience 
@@ -673,7 +675,7 @@ We calibrated our models.
 
 \clearpage
 
-\begin{deluxetable}{rrrrr}
+\begin{deluxetable}{llrrr}
 \tablecolumns{5}
 \tabletypesize{\small}
 \tablewidth{0pc}
@@ -683,16 +685,17 @@ We calibrated our models.
 \colhead{} & \colhead{} & \colhead{} & \colhead{} & \colhead{(hrs)}
 \label{journal}}
 \startdata
-%\input{journaldata.tex}
+\input{journaldata.tex}
 \enddata
 \end{deluxetable}
 
 \clearpage
 
-%\input{1982freq.tex}
+\input{1982freq.tex}
 \clearpage
-%\input{2011freq.tex}
+\input{2011freq.tex}
 \clearpage
+\input{gd358fit.tex} % label is gd358freq
 \clearpage
 \input{fitt1} % label is fitt1
 \clearpage

@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{42}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Althaus} {et~al.}(2005){Althaus}, {Serenelli}, {Panei},
@@ -103,6 +103,9 @@
   D., {Warner}, {Martinez}, {Vauclair}, {Dolez}, {Chevreton}, {Barstow},
   {Kepler}, {Giovannini}, {Augusteijn}, {Hansen}, \& {Kawaler}}]{Kleinman98}
 {Kleinman}, S.~J., {et~al.} 1998, \apj, 495, 424
+
+\bibitem[{{Koester}(2013)}]{Koester2013}
+{Koester}, D. 2013, private communication
 
 \bibitem[{{Kotak} {et~al.}(2002){Kotak}, {van Kerkwijk}, \&
   {Clemens}}]{Kotak02}

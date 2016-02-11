@@ -1,18 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.8.30)  8 FEB 2016 16:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.1.29)  11 FEB 2016 16:03
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **msnew.tex
 (./msnew.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (./aastex.cls
 Document Class: aastex 2005/06/22 5.2/AAS markup document class
 Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
 at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,55 +33,56 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/share/texmf-texlive/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count87
+\c@NAT@ctr=\count88
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks16
 \verbatim@line=\toks17
@@ -83,17 +90,17 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 )
 \@slugcmmntwidth=\dimen105
 \abstract@box=\box26
-\c@editornote=\count88
-\c@cureqno=\count89
+\c@editornote=\count89
+\c@cureqno=\count90
 \tnotemarkskip=\skip45
 \@abovenoteskip=\dimen106
 \pt@box=\box27
 \pt@width=\dimen107
-\pt@line=\count90
-\pt@column=\count91
-\pt@nlines=\count92
-\pt@ncol=\count93
-\pt@page=\count94
+\pt@line=\count91
+\pt@column=\count92
+\pt@nlines=\count93
+\pt@ncol=\count94
+\pt@page=\count95
 \tabbaseskip=\dimen108
 \pt@tmpcapwidth=\dimen109
 \spew@tblnotesbox=\box28
@@ -104,78 +111,69 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \captionbox=\box30
 \pt@reduceline=\dimen113
 \extra@vspace=\dimen114
-\c@plate=\count95
+\c@plate=\count96
 \my@footins=\box31
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen115
 \epsfysize=\dimen116
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
-Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 
-Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
+Package epstopdf Warning: Shell escape feature is not enabled.
 
-)) (./msnew.aux
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(./msnew.aux
 
 LaTeX Warning: Label `ffit4' multiply defined.
-
-
-LaTeX Warning: Label `journal' multiply defined.
-
-
-LaTeX Warning: Label `journal' multiply defined.
-
-
-LaTeX Warning: Label `journal' multiply defined.
 
 
 LaTeX Warning: Label `journal' multiply defined.
@@ -216,84 +214,283 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
-
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen117
+\scratchbox=\box32
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen118
+\MPnumerator=\count101
+\everyMPtoPDFconversion=\toks19
+)
 AAS preprint substyle, v5.2 <12 Dec 2003>.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 96.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+(/usr/share/texmf-texlive/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
-] [2]
-
-LaTeX Warning: Reference `aster' on page 3 undefined on input line 167.
-
-[3]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 Plotone included the file terskol
-File: terskol.eps Graphic file (type eps)
-<terskol.eps>
+Package epstopdf Info: Source file: <terskol.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 152234 bytes
+(epstopdf)             Output file: <./terskol-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 23773 bytes
+(epstopdf)             Command: <epstopdf --outfile=./terskol-eps-converted-to.
+pdf terskol.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+<./terskol-eps-converted-to.pdf, id=19, 668.4975pt x 472.76625pt>
+File: ./terskol-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./terskol-eps-converted-to.pdf>
 Plotone included the file gd358multidft
-File: gd358multidft.eps Graphic file (type eps)
-<gd358multidft.eps> [4]
+Package epstopdf Info: Source file: <gd358multidft.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 870288 bytes
+(epstopdf)             Output file: <./gd358multidft-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 184061 bytes
+(epstopdf)             Command: <epstopdf --outfile=./gd358multidft-eps-convert
+ed-to.pdf gd358multidft.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+<./gd358multidft-eps-converted-to.pdf, id=20, 661.47125pt x 475.7775pt>
+File: ./gd358multidft-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./gd358multidft-eps-converted-to.pdf> [4]
 Plotone included the file noise
-File: noise.eps Graphic file (type eps)
-<noise.eps> [5]
+Package epstopdf Info: Source file: <noise.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 18335 bytes
+(epstopdf)             Output file: <./noise-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 11007 bytes
+(epstopdf)             Command: <epstopdf --outfile=./noise-eps-converted-to.pd
+f noise.eps>
+(epstopdf)             \includegraphics on input line 267.
+Package epstopdf Info: Output file is already uptodate.
+<./noise-eps-converted-to.pdf, id=26, 667.49374pt x 477.785pt>
+File: ./noise-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./noise-eps-converted-to.pdf> [5]
 Plotone included the file gd358multif_2015.eps
-File: gd358multif_2015.eps Graphic file (type eps)
-<gd358multif_2015.eps>
+Package epstopdf Info: Source file: <gd358multif_2015.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 239519 bytes
+(epstopdf)             Output file: <./gd358multif_2015-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 51784 bytes
+(epstopdf)             Command: <epstopdf --outfile=./gd358multif_2015-eps-conv
+erted-to.pdf gd358multif_2015.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
+<./gd358multif_2015-eps-converted-to.pdf, id=31, 662.475pt x 472.76625pt>
+File: ./gd358multif_2015-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./gd358multif_2015-eps-converted-to.pdf>
 Plotone included the file gd358k17_k8.eps
-File: gd358k17_k8.eps Graphic file (type eps)
-<gd358k17_k8.eps> [6]
+Package epstopdf Info: Source file: <gd358k17_k8.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 256360 bytes
+(epstopdf)             Output file: <./gd358k17_k8-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 28428 bytes
+(epstopdf)             Command: <epstopdf --outfile=./gd358k17_k8-eps-converted
+-to.pdf gd358k17_k8.eps>
+(epstopdf)             \includegraphics on input line 328.
+Package epstopdf Info: Output file is already uptodate.
+<./gd358k17_k8-eps-converted-to.pdf, id=32, 1286.8075pt x 480.79625pt>
+File: ./gd358k17_k8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./gd358k17_k8-eps-converted-to.pdf> [6]
 Plotone included the file modethick.eps
-File: modethick.eps Graphic file (type eps)
-<modethick.eps>
+Package epstopdf Info: Source file: <modethick.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 13397 bytes
+(epstopdf)             Output file: <./modethick-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 8218 bytes
+(epstopdf)             Command: <epstopdf --outfile=./modethick-eps-converted-t
+o.pdf modethick.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+<./modethick-eps-converted-to.pdf, id=36, 662.475pt x 472.76625pt>
+File: ./modethick-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `amps' on page 7 undefined on input line 385.
-
+<use ./modethick-eps-converted-to.pdf>
 Plotone included the file modeamps.eps
-File: modeamps.eps Graphic file (type eps)
-<modeamps.eps>
+Package epstopdf Info: Source file: <modeamps.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 136855 bytes
+(epstopdf)             Output file: <./modeamps-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 27023 bytes
+(epstopdf)             Command: <epstopdf --outfile=./modeamps-eps-converted-to
+.pdf modeamps.eps>
+(epstopdf)             \includegraphics on input line 392.
+Package epstopdf Info: Output file is already uptodate.
+<./modeamps-eps-converted-to.pdf, id=37, 967.615pt x 404.51125pt>
+File: ./modeamps-eps-converted-to.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `tl' on page 7 undefined on input line 403.
+<use ./modeamps-eps-converted-to.pdf>
 
+LaTeX Warning: Reference `tl' on page 7 undefined on input line 405.
 
-LaTeX Warning: Reference `astero' on page 7 undefined on input line 405.
-
-[7] [8] (./gd358fit.tex
-Page 1 of table 2 has been set to width 320.789pt with 34 lines per page 
-) [9] [10]
+[7] [8] [9]
 Plotone included the file ffit2.eps
-File: ffit2.eps Graphic file (type eps)
-<ffit2.eps> [11]
-Plotone included the file ffit3.eps
-File: ffit3.eps Graphic file (type eps)
-<ffit3.eps>
-Plotone included the file ffit4.eps
-File: ffit4.eps Graphic file (type eps)
-<ffit4.eps>
-Plotone included the file ffit1.eps
-File: ffit1.eps Graphic file (type eps)
-<ffit1.eps> [12] [13] (./msnew.bbl [14] [15]) [16] [17] [18] [19] [20] [21]
-[22] [23] [24]
-Page 1 of table 3 has been set to width 255.0623pt with 36 lines per page 
+Package epstopdf Info: Source file: <ffit2.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 85138 bytes
+(epstopdf)             Output file: <./ffit2-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 176509 bytes
+(epstopdf)             Command: <epstopdf --outfile=./ffit2-eps-converted-to.pd
+f ffit2.eps>
+(epstopdf)             \includegraphics on input line 518.
+Package epstopdf Info: Output file is already uptodate.
+<./ffit2-eps-converted-to.pdf, id=50, 1258.7025pt x 570.13pt>
+File: ./ffit2-eps-converted-to.pdf Graphic file (type pdf)
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 685--688
+<use ./ffit2-eps-converted-to.pdf> [10]
+Plotone included the file ffit3.eps
+Package epstopdf Info: Source file: <ffit3.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 18456 bytes
+(epstopdf)             Output file: <./ffit3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 13796 bytes
+(epstopdf)             Command: <epstopdf --outfile=./ffit3-eps-converted-to.pd
+f ffit3.eps>
+(epstopdf)             \includegraphics on input line 580.
+Package epstopdf Info: Output file is already uptodate.
+<./ffit3-eps-converted-to.pdf, id=54, 917.4275pt x 331.2375pt>
+File: ./ffit3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./ffit3-eps-converted-to.pdf>
+Plotone included the file ffit4.eps
+Package epstopdf Info: Source file: <ffit4.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 137873 bytes
+(epstopdf)             Output file: <./ffit4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 93139 bytes
+(epstopdf)             Command: <epstopdf --outfile=./ffit4-eps-converted-to.pd
+f ffit4.eps>
+(epstopdf)             \includegraphics on input line 612.
+Package epstopdf Info: Output file is already uptodate.
+<./ffit4-eps-converted-to.pdf, id=55, 1955.305pt x 1051.93pt>
+File: ./ffit4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./ffit4-eps-converted-to.pdf> [11]
+Plotone included the file ffit1.eps
+Package epstopdf Info: Source file: <ffit1.eps>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 118893 bytes
+(epstopdf)             Output file: <./ffit1-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-02-11 14:49:49
+(epstopdf)                    size: 46538 bytes
+(epstopdf)             Command: <epstopdf --outfile=./ffit1-eps-converted-to.pd
+f ffit1.eps>
+(epstopdf)             \includegraphics on input line 630.
+Package epstopdf Info: Output file is already uptodate.
+<./ffit1-eps-converted-to.pdf, id=59, 803.0pt x 602.25pt>
+File: ./ffit1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./ffit1-eps-converted-to.pdf> [12] (./msnew.bbl [13] [14]) [15] [16
+
+]
+[17 <./terskol-eps-converted-to.pdf>] [18 <./gd358multidft-eps-converted-to.pdf
+>] [19 <./noise-eps-converted-to.pdf>] [20 <./gd358multif_2015-eps-converted-to
+.pdf>] [21 <./gd358k17_k8-eps-converted-to.pdf>] [22 <./modethick-eps-converted
+-to.pdf> <./modeamps-eps-converted-to.pdf>] [23 <./ffit2-eps-converted-to.pdf> 
+<./ffit3-eps-converted-to.pdf>] [24 <./ffit4-eps-converted-to.pdf> <./ffit1-eps
+-converted-to.pdf>] (./journaldata.tex
+Page 1 of table 2 has been set to width 326.02452pt with 36 lines per page 
+[25]
+Page 2 of table 2 has been set to width 325.26407pt with 36 lines per page 
+[26]
+Page 3 of table 2 has been set to width 322.83078pt with 36 lines per page 
+[27]
+Page 4 of table 2 has been set to width 340.0162pt with 36 lines per page 
+[28]
+Page 5 of table 2 has been set to width 325.26407pt with 36 lines per page 
+[29]
+Page 6 of table 2 has been set to width 340.0162pt with 36 lines per page 
+[30]
+Page 7 of table 2 has been set to width 331.34746pt with 36 lines per page 
+[31]
+Page 8 of table 2 has been set to width 324.95992pt with 36 lines per page 
+[32])
+Page 9 of table 2 has been set to width 325.14243pt with 36 lines per page 
+
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 257--690
  [][][] 
  []
 
-[25] (./fitt1.tex
-Page 1 of table 4 has been set to width 432.97145pt with 34 lines per page 
-) [26] (./msnew.aux)
+[33] (./1982freq.tex
+Page 1 of table 3 has been set to width 300.7269pt with 34 lines per page 
+[34]
+Page 2 of table 3 has been set to width 300.7269pt with 34 lines per page 
+[35]
+Page 3 of table 3 has been set to width 300.7269pt with 34 lines per page 
+[36]
+Page 4 of table 3 has been set to width 315.57953pt with 34 lines per page 
+[37]
+Page 5 of table 3 has been set to width 306.60184pt with 34 lines per page 
+[38]
+Page 6 of table 3 has been set to width 311.6629pt with 34 lines per page 
+[39]
+Page 7 of table 3 has been set to width 311.6629pt with 34 lines per page 
+[40]
+Page 8 of table 3 has been set to width 306.60184pt with 34 lines per page 
+[41]
+Page 9 of table 3 has been set to width 300.7269pt with 34 lines per page 
+
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 253--261
+ [][][] 
+ []
+
+) [42] (./2011freq.tex
+Page 1 of table 4 has been set to width 306.60184pt with 34 lines per page 
+[43]
+Page 2 of table 4 has been set to width 312.47678pt with 34 lines per page 
+[44]
+Page 3 of table 4 has been set to width 305.78796pt with 34 lines per page 
+[45]
+Page 4 of table 4 has been set to width 311.6629pt with 34 lines per page 
+[46]
+Page 5 of table 4 has been set to width 311.6629pt with 34 lines per page 
+[47]
+Page 6 of table 4 has been set to width 306.60184pt with 34 lines per page 
+[48]
+Page 7 of table 4 has been set to width 300.7269pt with 34 lines per page 
+
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 194--199
+ [][][] 
+ []
+
+) [49] (./gd358fit.tex
+Page 1 of table 5 has been set to width 302.30031pt with 34 lines per page 
+) [50] (./fitt1.tex
+Page 1 of table 6 has been set to width 432.97145pt with 34 lines per page 
+) [51] (./msnew.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -302,12 +499,28 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2466 strings out of 495029
- 31522 string characters out of 6181523
- 97796 words of memory out of 5000000
- 5629 multiletter control sequences out of 15000+600000
- 13885 words of font info for 58 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 42i,10n,28p,1055b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 2769 strings out of 493848
+ 35898 string characters out of 1152823
+ 100713 words of memory out of 3000000
+ 5972 multiletter control sequences out of 15000+50000
+ 13885 words of font info for 58 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 41i,10n,26p,1055b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti
+12.pfb>
+Output written on msnew.pdf (51 pages, 899563 bytes).
+PDF statistics:
+ 286 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on msnew.dvi (26 pages, 60208 bytes).
