@@ -17,17 +17,18 @@
   {Montgomery}, M.~H., {{\O}stensen}, R., {Castanheira}, B.~G., \& {Winget},
   D.~E. 2015, \apj, 809, 14
 
+\bibitem[{{Bischoff-Kim}(2015)}]{Bischoff-Kim15}
+{Bischoff-Kim}, A. 2015, in Astronomical Society of the Pacific Conference
+  Series, Vol. 493, 19th European Workshop on White Dwarfs, ed. P.~{Dufour},
+  P.~{Bergeron}, \& G.~{Fontaine}, 175
+
 \bibitem[{{Bischoff-Kim} \& {Metcalfe}(2011)}]{Bischoff-Kim11a}
 {Bischoff-Kim}, A., \& {Metcalfe}, T.~S. 2011, MNRAS, 414, 404
 
-\bibitem[{{Bischoff-Kim} {et~al.}(2014{\natexlab{a}}){Bischoff-Kim},
-  {{\O}stensen}, {Hermes}, \& {Provencal}}]{BischoffKim14}
+\bibitem[{{Bischoff-Kim} {et~al.}(2014){Bischoff-Kim}, {{\O}stensen}, {Hermes},
+  \& {Provencal}}]{Bischoff-Kim14}
 {Bischoff-Kim}, A., {{\O}stensen}, R.~H., {Hermes}, J.~J., \& {Provencal},
-  J.~L. 2014{\natexlab{a}}, ApJ, 794, 39
-
-\bibitem[{{Bischoff-Kim} {et~al.}(2014{\natexlab{b}}){Bischoff-Kim},
-  {{\O}stensen}, {Hermes}, \& {Provencal}}]{Bischoff-Kim14}
----. 2014{\natexlab{b}}, ApJ, 794, 39
+  J.~L. 2014, ApJ, 794, 39
 
 \bibitem[{{Brassard} {et~al.}(1995){Brassard}, {Fontaine}, \&
   {Wesemael}}]{Brassard95}
@@ -65,6 +66,11 @@
   Horn}}]{Fontaine77}
 {Fontaine}, G., {Graboske}, H.~C., J., \& {Van Horn}, H.~M. 1977, \apjs, 35,
   293
+
+\bibitem[{{Giammichele} {et~al.}(2015){Giammichele}, {Charpinet}, {Fontaine},
+  {Brassard}, \& {Zong}}]{Giammichele15}
+{Giammichele}, n., {Charpinet}, S., {Fontaine}, G., {Brassard}, P., \& {Zong},
+  W. 2015, IAU General Assembly, 22, 2256942
 
 \bibitem[{{Herwig} {et~al.}(1999){Herwig}, {Bl{\"o}cker}, {Langer}, \&
   {Driebe}}]{Herwig99}
@@ -134,11 +140,6 @@
 \bibitem[{{Metcalfe} {et~al.}(2000){Metcalfe}, {Nather}, \&
   {Winget}}]{Metcalfe00}
 {Metcalfe}, T.~S., {Nather}, R.~E., \& {Winget}, D.~E. 2000, \apj, 545, 974
-
-\bibitem[{{Montgomery} {et~al.}(2003){Montgomery}, {Metcalfe}, \&
-  {Winget}}]{Montgomery03}
-{Montgomery}, M.~H., {Metcalfe}, T.~S., \& {Winget}, D.~E. 2003, \mnras, 344,
-  657
 
 \bibitem[{{Montgomery} {et~al.}(2010){Montgomery}, {Provencal}, {Kanaan},
   {Thompson}, {Dalessio}, {Shipman}, \& {Winget}}]{Montgomery10}
