@@ -3788,6 +3788,7 @@ booktitle = {11th European Workshop on White Dwarfs},
 @ARTICLE{Koester2013,
     author = {{Koester}, D.},
     journal = "private communication",
+    year = 2013
 }
 
 @ARTICLE{Mont11c,
@@ -7126,7 +7127,7 @@ archivePrefix = "arXiv",
     pages = {1052},
    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004ApJ...612.1052M&db_key=AST},
 }
-@ARTICLE{Nather90,
+@ARTICLE{wet90,
    author = {{Nather}, R.~E. and {Winget}, D.~E. and {Clemens}, J.~C. and 
 	{Hansen}, C.~J. and {Hine}, B.~P.},
     title = "{The whole earth telescope - A new astronomical instrument}",
@@ -10840,3 +10841,33 @@ url = {http://link.aip.org/link/?APC/1170/355/1},
 adsurl = {http://link.aip.org/link/?APC/1170/355/1},
 doi = {10.1063/1.3246512}
 }
+
+@INPROCEEDINGS{Bischoff-Kim15,
+   author = {{Bischoff-Kim}, A.},
+    title = "{Patterns Emerging from the Asteroseismic Studies of DBVs}",
+booktitle = {19th European Workshop on White Dwarfs},
+     year = 2015,
+   series = {Astronomical Society of the Pacific Conference Series},
+   volume = 493,
+   editor = {{Dufour}, P. and {Bergeron}, P. and {Fontaine}, G.},
+    month = jun,
+    pages = {175},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ASPC..493..175B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Giammichele15,
+   author = {{Giammichele}, n. and {Charpinet}, S. and {Fontaine}, G. and 
+	{Brassard}, P. and {Zong}, W.},
+    title = "{Ultra-high precision white dwarf asteroseismology}",
+  journal = {IAU General Assembly},
+     year = 2015,
+    month = aug,
+   volume = 22,
+      eid = {2256942},
+    pages = {2256942},
+   adsurl = {http://adsabs.harvard.edu/abs/2015IAUGA..2256942G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+

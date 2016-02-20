@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{44}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Althaus} {et~al.}(2005){Althaus}, {Serenelli}, {Panei},
@@ -146,6 +146,11 @@
 {Montgomery}, M.~H., {Provencal}, J.~L., {Kanaan}, A., {Thompson}, S.,
   {Dalessio}, J., {Shipman}, H., \& {Winget}, D.~E. 2010, \apj, 716, 84
 
+\bibitem[{{Nather} {et~al.}(1990){Nather}, {Winget}, {Clemens}, {Hansen}, \&
+  {Hine}}]{wet90}
+{Nather}, R.~E., {Winget}, D.~E., {Clemens}, J.~C., {Hansen}, C.~J., \& {Hine},
+  B.~P. 1990, \apj, 361, 309
+
 \bibitem[{{Provencal} {et~al.}(2009){Provencal}, {Montgomery}, {Kanaan},
   {Shipman}, {Childers}, {Baran}, {Kepler}, {Reed}, {Zhou}, {Eggen}, {Watson},
   {Winget}, {Thompson}, {Riaz}, {Nitta}, {Kleinman}, {Crowe}, {Slivkoff},
@@ -187,6 +192,11 @@
 \bibitem[{{Thompson} \& {Mullally}(2009)}]{wqed}
 {Thompson}, S.~E., \& {Mullally}, F. 2009, Journal of Physics Conference
   Series, 172, 012081
+
+\bibitem[{{Tremblay} {et~al.}(2013){Tremblay}, {Ludwig}, {Steffen}, \&
+  {Freytag}}]{Tremblay2013}
+{Tremblay}, P.-E., {Ludwig}, H.-G., {Steffen}, M., \& {Freytag}, B. 2013, \aap,
+  559, A104
 
 \bibitem[{{Winget} {et~al.}(1982){Winget}, {van Horn}, {Tassoul}, {Fontaine},
   {Hansen}, \& {Carroll}}]{Winget82}
