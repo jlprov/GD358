@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Althaus} {et~al.}(2005){Althaus}, {Serenelli}, {Panei},
@@ -16,6 +16,11 @@
 {Bell}, K.~J., {Hermes}, J.~J., {Bischoff-Kim}, A., {Moorhead}, S.,
   {Montgomery}, M.~H., {{\O}stensen}, R., {Castanheira}, B.~G., \& {Winget},
   D.~E. 2015, \apj, 809, 14
+
+\bibitem[{{Bergeron} {et~al.}(2011){Bergeron}, {Wesemael}, {Dufour},
+  {Beauchamp}, {Hunter}, {Saffer}, {Gianninas}, {Ruiz}, {Limoges}, {Dufour},
+  {Fontaine}, \& {Liebert}}]{Bergeron2011}
+{Bergeron}, P., {et~al.} 2011, \apj, 737, 28
 
 \bibitem[{{Bischoff-Kim}(2015)}]{Bischoff-Kim15}
 {Bischoff-Kim}, A. 2015, in Astronomical Society of the Pacific Conference
