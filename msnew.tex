@@ -440,7 +440,7 @@ periods $P^{\rm obs}$. Following standard statistical methods, each fit is assig
 W=\frac{n_{\rm obs}-1}{n_{\rm obs}}\sum_{1}^{n_{\rm obs}}w_i
 \end{eqnarray}
 
-\noindent where $n_{\rm obs}$ is the number of periods present in the pulsation spectrum and the weights $w_i$ are the inverse square of the uncertainties listed for each period in table \ref{gd}. We note that the two shortest period modes have 6000 times the weight of the longest period mode. Another way to see this is to assume we have a calculated period that matches the highest period mode very poorly, being 20 seconds away. 20 seconds is roughly half the average period spacing for $\ell=1$ modes in the relevant area of parameter space and so it is the worse period fit one can get. In order to have the same impact on $\sigma_{\rm RMS}$, the lowest period mode would have to match to within 0.26 seconds. In essence this is almost ignoring the modes that have a period measurement uncertainty of 0.5~s or more.
+\noindent where $n_{\rm obs}$ is the number of periods present in the pulsation spectrum and the weights $w_i$ are the inverse square of the uncertainties listed for each period in table \ref{gd}. We note that the two shortest period modes have 6000 times the weight of the longest period mode. Another way to think about this is to assume we have a calculated period that matches the highest period mode very poorly, being 20 seconds away. 20 seconds is roughly half the average period spacing for $\ell=1$ modes in the relevant area of parameter space and so it is the worse period fit one can get. In order to have the same impact on $\sigma_{\rm RMS}$, the lowest period mode would have to match to within 0.26 seconds. In essence this is almost ignoring the modes that have a period measurement uncertainty of 0.5~s or more. It is, however completely consistent with the relative uncertainty on the periods.
 
 \subsection{The Models}
 \label{models}
@@ -477,7 +477,8 @@ where $M(r)$ is the mass enclosed in radius r and $M_*$ is the stellar mass.
 \begin{figure}
 %  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
 %  {\includegraphics[width=1.0\columnwidth]{ffit1.eps}}
-\plotone{ffit1.eps}
+\epsscale{1.0}
+ \plotone{ffit1.eps}
 \caption{
 {\em Upper panel:} Chemical composition profiles of the best fit model. The center of the model is 
 to the left and the surface to the right.  $q=2$ corresponds to $M_r = 0.99 \: M_*$. The vertical axis
@@ -551,10 +552,10 @@ that of the observed period spectrum. The most recent spectroscopic determinatio
 \caption{
 {\it Left panel}: Contour map showing the location of the best fit models. The quantity plotted in 
 the mass-effective temperature plane is the fitness parameter defined in equation \ref{fiteq1}. 
-The scale is in seconds. {\it Right panel}: Contour map of the difference between the average 
+{\it Right panel}: Contour map of the difference between the average 
 periods spacing determined from GD 358's periods and the asymptotic period spacing of the models, 
 in the mass-effective temperature plane. The scale is in 10s of seconds, so the worse matches 
-pictured on the plot have $\left|\Delta P_{\rm obs}- \Delta P_{\rm calc}\right| \sim 2 \; \rm s$. We plotted the spectroscopic mass and temperature determinations of \citet{Bergeron2011}, and that of \citet{Koester2013}. The latter is off to the left of the plot, and only part of an error bar is visible. \label{ffit2}
+pictured on the plot have $\left|\Delta P_{\rm obs}- \Delta P_{\rm calc}\right| \sim 5 \; \rm s$. We plotted the spectroscopic mass and temperature determinations of \citet{Bergeron2011} (higher mass), and that of \citet{Koester2013} (lower mass). The point without error bars corresponds to the best initial fit model. \label{ffit2}
 }
 \end{figure}
 
@@ -562,14 +563,10 @@ One can fit simultaneously the average period spacing and the individual periods
 formally while performing the fits by using some prescription to calculate the goodness of fit. 
 This leads to a more complex relation than defined in equation \ref{fiteq1}. 
 Note that the period spacing is a much weaker constraint than the individual period fit. 
-If one takes 5.0 seconds as an upper limit for goodness of fit, that includes 9 points in the 
+If one takes 5.0 seconds as an upper limit for goodness of fit, that includes 4\% of the points in the 
 period-by-period fit plot (left panel in Fig \ref{ffit2}), but the entire parameter plane 
-for the average period spacing fit plot (right panel). We bypass the difficulty of 
-assigning proper weights to each constraint by taking the average period spacing fit into 
-account as an initial step to refine our fits. We refine our fits by calculating models on 
-a higher resolution grid that fall within the region defined by the two diagonal lines shown 
-in the right panel of Fig. \ref{ffit2} (covering the effective temperature range 25,000~K-27,500~K), then performing a period-by-period fit using 
-equation \ref{fiteq1}.
+for the average period spacing fit plot (right panel). In our refined fits, we limit ourselves to a region very near the best fit model found on the initial grid. This essentially limits our search to models that already match the average period spacing. We avoid sophisticated schemes to calculate the fitness parameter and simply use equation \ref{fiteq1}.
+
 
 \subsection{Optimal Grid Resolution}
 \label{refinedfits}
@@ -583,68 +580,61 @@ computational limitations to how many models we can afford to calculate,
 save, and process.
 
 One way to gain a sense of how fine the grid needs to be is to make single 
-parameter cuts through parameter space. Fig.  \ref{ffit3} shows such a cut 
+parameter cuts through parameter space. Fig.  \ref{ffit3} shows such cuts 
 for master grid models. The plot was made by fixing 5 of the 6 parameters 
 to the best fit values of the best initial fit (see table \ref{fitt1}).
-We allowed the effective temperature to vary through the entire range 
-considered for the master grid. The fits seem to settle to a minimum in a 
-smooth way, except for the striking anomaly at 26,600~K. Upon further 
-investigation, we discovered that anomaly to be due to a single period in 
-the pulsation spectrum: the 968~s mode. In the models, that mode appears 
-highly sensitive to some parameters, and in a non-continuous way.
+For some parameters, the fits seem to settle to a minimum in a 
+smooth way, while for others, they exhibit jumps. For instance, the spike in the effective temperature plot at 27,800~K is due to a period (around 530~s) that goes away and then comes back. The model with the missing period fits poorly compared to the models on either side of it. The jump from \sigrms $\sim$ 5 to \sigrms $\sim$ 30 that happens from 28,400~K to 28,600~K is due to a discontinuous change in the period spectrum of the models. Namely, the appearance of a new mode between the 710 and 784~s modes of the 28,400~K model. 
 
 \begin{figure}
-\epsscale{0.7}
+\epsscale{1.0}
 \plotone{ffit3.eps}
 %  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
 %  \includegraphics[width=0.9\columnwidth]{ffit3.eps}
 \caption{
-Dependence of the fitness parameter on effective temperature alone based on 
-the master grid of models. \label{ffit3}
+Dependence of the fitness parameter on different parameters. The 5 parameters other than the one shown 
+on the horizontal axis in each plot are held to fixed values corresponding to the initial best fit model (table \ref{ffit1}). The vertical dashed lines mark the ranges considered in the refined fitting. For the envelope mass, we went up to \menv = 2.3.
+ \label{ffit3}
 }
 \end{figure}
 
-This is unsettling, as it is easy to see that one might miss the best fit 
-models if the grid is not fine enough. In order to quantify "fine enough", 
+Discontinuities like these are unsettling, as it is easy to see that one might miss a best fit 
+model if the grid is not fine enough. In order to quantify "fine enough", 
 we ran systematic scans, computing models with 5 parameter fixed and allowing 
 the 6th parameter to vary in very fine steps. We went down in 
 step sizes to $\Delta {\rm T_{eff}}=1$~K, $\Delta M_*=0.0001 M_\odot$, 
 $\Delta M_{\rm env}= \Delta M_{\rm He}=0.01$ dex, $\Delta X_o=0.01$, and $\Delta q_{\rm fm}=0.001$. 
-Results for 4 different parameters are shown in Fig \ref{ffit4}. The figure 
-includes zooms to regions of interest. Other modes also exhibit a behavior 
-similar to the 968~s mode, in different regions of parameter space. For instance, 
-the jumps in \sigrms\ for \qfm\ between 0.3 and 0.4 are due 
-to sudden changes in the 854.5 and 902.5~s modes.
-
 Regardless of the behavior of individual modes in the models as the parameters vary, 
-we can assert from the test above what step sizes will allow us to minimize our risk 
-of missing a minimum. We settled on optimal step sizes of 
-$\Delta {\rm T_{eff}}=20$, $\Delta M_*=0.0002$, $\Delta M_{\rm He}=0.2$, 
-$\Delta X_o=0.2$, and $\Delta q_{\rm fm}=0.01$ for our refined grid. To offset 
-the computational cost, we fixed $M_{\rm env}$ to a canonical value of 
-2.80 \citep{Dehner95}. It is clear from the second panel in Fig. \ref{ffit4} 
-that there is only a weak dependence of the fits on that parameter.
+we can assert what step sizes will allow us to minimize our risk 
+of missing a minimum. We settled on step sizes of 
+$\Delta {\rm T_{eff}}=50$, $\Delta M_*=0.0001$, $\Delta M_{\rm env}=0.1$, $\Delta M_{\rm He}=0.1$, 
+$\Delta X_o=0.1$, and $\Delta q_{\rm fm}=0.005$ for our refined grid.
 		
-\begin{figure}
-\epsscale{0.9}
-\plotone{ffit4.eps}
-%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
-%  \includegraphics[width=0.9\columnwidth]{ffit4.eps}
-\caption{
-\label{ffit4}
-Dependence of the fitness parameter on different parameters. The 5 parameters other than the one shown 
-on the horizontal axis in each plot are held to fixed values corresponding to the best fit model (table \ref{ffit1}).
-}
-
-
-\end{figure}
-
 \section{Results of the Period Fitting}
 \label{results}
 
 The parameters for our best fit model based on the refined grid are listed in Table \ref{fitt1} and the periods of that model in 
-Table \ref{gd}. The goodness of fit of the model is \sigrms$=4.22$~s. In Fig. \ref{ffit1}, we show the interior structure of 
-the best fit model, with the corresponding \bvf frequency profile.
+Table \ref{gd}. The goodness of fit of the model is \sigrms$=0.964$~s. We also list
+the Bayes Information Criterion (BIC) number, a statistic that
+normalizes the quality of fits by number of free parameters and
+number of constraints for comparison with other studies. For a discussion applied to this parameter
+study, see \citet{Bischoff-Kim11a}. A negative BIC indicates a good quality of fit, given the number of constraints. One should keepp in mind that the quality of fit is aided by the fact that some of the periods have large uncertainties.
+
+In Fig. \ref{ffit4} we focus on the mass dependence of the fitness parameter to illustrate the effect a finer grid has on the fitting. We could have used less of a fine mesh in mass, but with our very fine mesh, we do get a better view of how the discontinuities first shown in Fig. \ref{ffit3} behave and that they are not true discontinuities, just large changes in goodness of fit for small changes in mass.
+
+\begin{figure}
+\epsscale{0.7}
+\plotone{ffit4.eps}
+%  \includegraphics[scale=0.70,viewport=50 0 50 350]{f2.png}
+%  \includegraphics[width=0.9\columnwidth]{ffit3.eps}
+\caption{
+Dependence of the fitness parameter on mass alone based on 
+the master grid of models (dashed line) and the refined mesh (solid line). \label{ffit4}
+}
+\end{figure}
+
+
+Finally, we show the interior structure of the best fit model in Fig. \ref{ffit1}, with the corresponding \bvf frequency profile.
 
 \subsection{Validation of the Fitting Method}
 

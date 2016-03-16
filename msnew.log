@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.8.30)  25 FEB 2016 20:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.8.30)  14 MAR 2016 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -227,97 +227,97 @@ File: ffit2.eps Graphic file (type eps)
 <ffit2.eps> [11]
 Plotone included the file ffit3.eps
 File: ffit3.eps Graphic file (type eps)
-<ffit3.eps>
+<ffit3.eps> [12]
 Plotone included the file ffit4.eps
 File: ffit4.eps Graphic file (type eps)
-<ffit4.eps> [12] [13] [14] (./msnew.bbl [15] [16]) [17] [18] [19] [20] [21]
-[22] [23] [24] [25] [26] (./journaldata.tex
+<ffit4.eps> [13] [14] (./msnew.bbl [15] [16]) [17] [18] [19] [20] [21] [22]
+[23] [24] [25] [26] [27] (./journaldata.tex
 Page 1 of table 2 has been set to width 326.02452pt with 36 lines per page 
-[27]
-Page 2 of table 2 has been set to width 325.26407pt with 36 lines per page 
 [28]
-Page 3 of table 2 has been set to width 322.83078pt with 36 lines per page 
+Page 2 of table 2 has been set to width 325.26407pt with 36 lines per page 
 [29]
-Page 4 of table 2 has been set to width 340.0162pt with 36 lines per page 
+Page 3 of table 2 has been set to width 322.83078pt with 36 lines per page 
 [30]
-Page 5 of table 2 has been set to width 325.26407pt with 36 lines per page 
+Page 4 of table 2 has been set to width 340.0162pt with 36 lines per page 
 [31]
-Page 6 of table 2 has been set to width 340.0162pt with 36 lines per page 
+Page 5 of table 2 has been set to width 325.26407pt with 36 lines per page 
 [32]
-Page 7 of table 2 has been set to width 331.34746pt with 36 lines per page 
+Page 6 of table 2 has been set to width 340.0162pt with 36 lines per page 
 [33]
+Page 7 of table 2 has been set to width 331.34746pt with 36 lines per page 
+[34]
 Page 8 of table 2 has been set to width 324.95992pt with 36 lines per page 
-[34])
+[35])
 Page 9 of table 2 has been set to width 325.14243pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 257--717
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 257--710
  [][][] 
  []
 
-[35] (./1982freq.tex
+[36] (./1982freq.tex
 Page 1 of table 3 has been set to width 300.7269pt with 34 lines per page 
-[36]
-Page 2 of table 3 has been set to width 300.7269pt with 34 lines per page 
 [37]
-Page 3 of table 3 has been set to width 300.7269pt with 34 lines per page 
+Page 2 of table 3 has been set to width 300.7269pt with 34 lines per page 
 [38]
-Page 4 of table 3 has been set to width 315.57953pt with 34 lines per page 
+Page 3 of table 3 has been set to width 300.7269pt with 34 lines per page 
 [39]
-Page 5 of table 3 has been set to width 306.60184pt with 34 lines per page 
+Page 4 of table 3 has been set to width 315.57953pt with 34 lines per page 
 [40]
-Page 6 of table 3 has been set to width 311.6629pt with 34 lines per page 
+Page 5 of table 3 has been set to width 306.60184pt with 34 lines per page 
 [41]
-Page 7 of table 3 has been set to width 311.6629pt with 34 lines per page 
+Page 6 of table 3 has been set to width 311.6629pt with 34 lines per page 
 [42]
-Page 8 of table 3 has been set to width 306.60184pt with 34 lines per page 
+Page 7 of table 3 has been set to width 311.6629pt with 34 lines per page 
 [43]
+Page 8 of table 3 has been set to width 306.60184pt with 34 lines per page 
+[44]
 Page 9 of table 3 has been set to width 300.7269pt with 34 lines per page 
 
 Overfull \hbox (469.75499pt too wide) in paragraph at lines 253--261
  [][][] 
  []
 
-) [44] (./2011freq.tex
+) [45] (./2011freq.tex
 Page 1 of table 4 has been set to width 306.60184pt with 34 lines per page 
-[45]
-Page 2 of table 4 has been set to width 312.47678pt with 34 lines per page 
 [46]
-Page 3 of table 4 has been set to width 305.78796pt with 34 lines per page 
+Page 2 of table 4 has been set to width 312.47678pt with 34 lines per page 
 [47]
-Page 4 of table 4 has been set to width 311.6629pt with 34 lines per page 
+Page 3 of table 4 has been set to width 305.78796pt with 34 lines per page 
 [48]
-Page 5 of table 4 has been set to width 311.6629pt with 34 lines per page 
+Page 4 of table 4 has been set to width 311.6629pt with 34 lines per page 
 [49]
-Page 6 of table 4 has been set to width 306.60184pt with 34 lines per page 
+Page 5 of table 4 has been set to width 311.6629pt with 34 lines per page 
 [50]
+Page 6 of table 4 has been set to width 306.60184pt with 34 lines per page 
+[51]
 Page 7 of table 4 has been set to width 300.7269pt with 34 lines per page 
 
 Overfull \hbox (469.75499pt too wide) in paragraph at lines 194--199
  [][][] 
  []
 
-) [51] (./gd358fit.tex
-Page 1 of table 5 has been set to width 302.30031pt with 34 lines per page 
+) [52] (./gd358fit.tex
+Page 1 of table 5 has been set to width 318.03656pt with 34 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 11--31
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 11--33
  [][][] 
  []
 
-) [52] (./fitt1.tex
-Page 1 of table 6 has been set to width 432.97145pt with 34 lines per page 
+) [53] (./fitt1.tex
+Page 1 of table 6 has been set to width 447.98518pt with 34 lines per page 
 
 Overfull \hbox (469.75499pt too wide) in paragraph at lines 13--21
  [][][] 
  []
 
-) [53] (./msnew.aux) ) 
+) [54] (./msnew.aux) ) 
 Here is how much of TeX's memory you used:
  2486 strings out of 495029
  31852 string characters out of 6181523
- 96269 words of memory out of 5000000
+ 97768 words of memory out of 5000000
  5640 multiletter control sequences out of 15000+600000
  13885 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  42i,10n,28p,1040b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on msnew.dvi (53 pages, 127360 bytes).
+Output written on msnew.dvi (54 pages, 129548 bytes).
