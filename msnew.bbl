@@ -1,4 +1,4 @@
-\begin{thebibliography}{45}
+\begin{thebibliography}{46}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Althaus} {et~al.}(2005){Althaus}, {Serenelli}, {Panei},
@@ -71,6 +71,12 @@
   Horn}}]{Fontaine77}
 {Fontaine}, G., {Graboske}, H.~C., J., \& {Van Horn}, H.~M. 1977, \apjs, 35,
   293
+
+\bibitem[{{Giammichele} {et~al.}(2017){Giammichele}, {Charpinet}, {Fontaine},
+  {Brassard}, \& {Greiss}}]{Giammichele17}
+{Giammichele}, N., {Charpinet}, S., {Fontaine}, G., {Brassard}, P., \&
+  {Greiss}, S. 2017, in Astronomical Society of the Pacific Conference Series,
+  Vol. in preparation, 20th European Workshop on White Dwarfs
 
 \bibitem[{{Giammichele} {et~al.}(2015){Giammichele}, {Charpinet}, {Fontaine},
   {Brassard}, \& {Zong}}]{Giammichele15}

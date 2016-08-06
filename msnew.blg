@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: msnew.aux
 The style file: apj.bst
 Database file #1: index_f.bib
-You've used 45 entries,
+You've used 46 entries,
             2988 wiz_defined-function locations,
-            955 strings with 17274 characters,
-and the built_in function-call counts, 23713 in all, are:
-= -- 1735
-> -- 2125
-< -- 17
-+ -- 716
-- -- 669
-* -- 2249
-:= -- 4570
-add.period$ -- 45
-call.type$ -- 45
-change.case$ -- 318
-chr.to.int$ -- 45
-cite$ -- 45
-duplicate$ -- 857
-empty$ -- 1227
-format.name$ -- 824
-if$ -- 4530
+            962 strings with 17591 characters,
+and the built_in function-call counts, 24232 in all, are:
+= -- 1772
+> -- 2171
+< -- 18
++ -- 732
+- -- 684
+* -- 2300
+:= -- 4664
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 327
+chr.to.int$ -- 46
+cite$ -- 46
+duplicate$ -- 879
+empty$ -- 1258
+format.name$ -- 842
+if$ -- 4627
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 41
-newline$ -- 139
-num.names$ -- 183
-pop$ -- 333
+newline$ -- 142
+num.names$ -- 187
+pop$ -- 346
 preamble$ -- 1
-purify$ -- 318
+purify$ -- 327
 quote$ -- 0
-skip$ -- 729
+skip$ -- 743
 stack$ -- 0
-substring$ -- 911
-swap$ -- 16
-text.length$ -- 2
+substring$ -- 922
+swap$ -- 18
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 414
 warning$ -- 0
-while$ -- 165
+while$ -- 168
 width$ -- 0
-write$ -- 451
+write$ -- 460
