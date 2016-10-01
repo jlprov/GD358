@@ -266,13 +266,13 @@ it is not feasible to analyze the entire data set as one unit. To minimize the e
 amplitude and frequency variations, we analyze the light curves from each observing season individually.
 
 We use {\sl Period04} \citep{Lenz05} for Fourier analysis and nonlinear least squares fitting to 
-identify statistically significant peaks in each FT. We adopt the criterion that a peak must have 
+identify statistically significant frequencies in each FT. We adopt the criterion that a peak must have 
 an amplitude at least four times that of the average noise level in the given frequency range 
 \citep{Provencal12}. This criterion places a 99.9\% probability that the peak represents a real signal,
 and is not a result of random noise \citep{Scargle82, Provencal12}.  We define ``noise'' as the frequency-dependent 
 average amplitude after prewhitening of the dominant frequencies. This is unquestionably a conservative estimate, 
-as it is impractical to assume that all ``real'' frequencies are removed when determining
-the noise level. This is certainly true for GD358, where amplitude modulation is present, and the peaks above $\approx$ 2500 $\mu$Hz\ 
+as it is impractical to assume that the complete set of ``real'' frequencies are removed when determining
+the noise level. This is inarguably true for GD358, where amplitude modulation is present, and the peaks above $\approx$ 2500 $\mu$Hz\ 
 are combination frequencies (see Section \ref{mode}, \citet{Provencal09}).  Fig.~\ref{noise} displays the average noise 
 as a function of frequency for the 2007-2016 observing seasons. A similar plot for the 
 archival data is presented in Fig. 3 of \citet{Provencal09}. We also calculated Monte Carlo 
@@ -291,9 +291,9 @@ season are somewhat different.  This must be taken into account during frequency
 \end{figure}
 
 Having established our baseline noise levels, we proceed to frequency selection and identification.
-Our standard frequency selection procedure involves identifying the largest amplitude resolved peak in the FT,
-fitting a sinusoid with that frequency to the data set, subtracting the fit from the light curve, 
-recomputing the FT, examining the residuals, and repeating the process until no significant power 
+Our standard frequency selection procedure identifies the largest amplitude resolved peak in the FT,
+fits a sinusoid with that frequency to the data set, subtracts the fit from the light curve, 
+recomputes the FT, examines the residuals, and repeates the process until no significant power 
 remains. This technique is known as prewhitening. Prewhitening has inherent dangers, and must be 
 employed with extreme vigilance, especially as we are aware of amplitude and/or frequency 
 modulation in our data set. A detailed discussion of the prewhitening procedure and steps 
