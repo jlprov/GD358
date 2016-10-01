@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.1)  25 AUG 2016 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.1)  1 OCT 2016 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,22 +240,22 @@ Package pdftex.def Info: ./terskol-eps-converted-to.pdf used on input line 227.
 
 Plotone included the file gd358multidft
 Package epstopdf Info: Source file: <gd358multidft.eps>
-(epstopdf)                    date: 2016-08-25 19:54:47
-(epstopdf)                    size: 870288 bytes
+(epstopdf)                    date: 2016-10-01 15:14:47
+(epstopdf)                    size: 826638 bytes
 (epstopdf)             Output file: <./gd358multidft-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-25 19:54:47
-(epstopdf)                    size: 184061 bytes
+(epstopdf)                    date: 2016-10-01 16:42:10
+(epstopdf)                    size: 21172 bytes
 (epstopdf)             Command: <repstopdf --outfile=./gd358multidft-eps-conver
 ted-to.pdf gd358multidft.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
-<./gd358multidft-eps-converted-to.pdf, id=26, 661.47125pt x 475.7775pt>
+<./gd358multidft-eps-converted-to.pdf, id=26, 656.21161pt x 471.92311pt>
 File: ./gd358multidft-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./gd358multidft-eps-converted-to.pdf>
 Package pdftex.def Info: ./gd358multidft-eps-converted-to.pdf used on input lin
 e 249.
-(pdftex.def)             Requested size: 328.82706pt x 236.51605pt.
+(pdftex.def)             Requested size: 328.82706pt x 236.48663pt.
  [5]
 Plotone included the file noise
 Package epstopdf Info: Source file: <noise.eps>
@@ -284,14 +284,14 @@ Package epstopdf Info: Source file: <gd358multif_2015.eps>
 (epstopdf)                    size: 30697 bytes
 (epstopdf)             Command: <repstopdf --outfile=./gd358multif_2015-eps-con
 verted-to.pdf gd358multif_2015.eps>
-(epstopdf)             \includegraphics on input line 322.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 <./gd358multif_2015-eps-converted-to.pdf, id=32, 794.97pt x 614.295pt>
 File: ./gd358multif_2015-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./gd358multif_2015-eps-converted-to.pdf>
 Package pdftex.def Info: ./gd358multif_2015-eps-converted-to.pdf used on input 
-line 322.
+line 323.
 (pdftex.def)             Requested size: 422.77661pt x 326.6996pt.
 
 Plotone included the file gd358k17_k8.eps
@@ -303,14 +303,14 @@ Package epstopdf Info: Source file: <gd358k17_k8.eps>
 (epstopdf)                    size: 15186 bytes
 (epstopdf)             Command: <repstopdf --outfile=./gd358k17_k8-eps-converte
 d-to.pdf gd358k17_k8.eps>
-(epstopdf)             \includegraphics on input line 350.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 <./gd358k17_k8-eps-converted-to.pdf, id=33, 637.38126pt x 451.6875pt>
 File: ./gd358k17_k8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./gd358k17_k8-eps-converted-to.pdf>
 Package pdftex.def Info: ./gd358k17_k8-eps-converted-to.pdf used on input line 
-350.
+351.
 (pdftex.def)             Requested size: 469.75499pt x 332.89954pt.
  [6] [7]
 Plotone included the file modethick.eps
@@ -322,14 +322,14 @@ Package epstopdf Info: Source file: <modethick.eps>
 (epstopdf)                    size: 8797 bytes
 (epstopdf)             Command: <repstopdf --outfile=./modethick-eps-converted-
 to.pdf modethick.eps>
-(epstopdf)             \includegraphics on input line 412.
+(epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
 <./modethick-eps-converted-to.pdf, id=41, 662.475pt x 472.76625pt>
 File: ./modethick-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./modethick-eps-converted-to.pdf>
 Package pdftex.def Info: ./modethick-eps-converted-to.pdf used on input line 41
-2.
+3.
 (pdftex.def)             Requested size: 375.80542pt x 268.18828pt.
  [8]
 Plotone included the file modeamps.eps
@@ -341,13 +341,13 @@ Package epstopdf Info: Source file: <modeamps.eps>
 (epstopdf)                    size: 27023 bytes
 (epstopdf)             Command: <repstopdf --outfile=./modeamps-eps-converted-t
 o.pdf modeamps.eps>
-(epstopdf)             \includegraphics on input line 455.
+(epstopdf)             \includegraphics on input line 456.
 Package epstopdf Info: Output file is already uptodate.
 <./modeamps-eps-converted-to.pdf, id=45, 967.615pt x 404.51125pt>
 File: ./modeamps-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./modeamps-eps-converted-to.pdf>
-Package pdftex.def Info: ./modeamps-eps-converted-to.pdf used on input line 455
+Package pdftex.def Info: ./modeamps-eps-converted-to.pdf used on input line 456
 .
 (pdftex.def)             Requested size: 375.80542pt x 157.10448pt.
  [9] [10]
@@ -360,13 +360,13 @@ Package epstopdf Info: Source file: <ffit1.eps>
 (epstopdf)                    size: 46538 bytes
 (epstopdf)             Command: <repstopdf --outfile=./ffit1-eps-converted-to.p
 df ffit1.eps>
-(epstopdf)             \includegraphics on input line 531.
+(epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
 <./ffit1-eps-converted-to.pdf, id=54, 803.0pt x 602.25pt>
 File: ./ffit1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./ffit1-eps-converted-to.pdf>
-Package pdftex.def Info: ./ffit1-eps-converted-to.pdf used on input line 531.
+Package pdftex.def Info: ./ffit1-eps-converted-to.pdf used on input line 532.
 (pdftex.def)             Requested size: 469.75499pt x 352.32861pt.
  [11]
 Plotone included the file ffit2.eps
@@ -378,13 +378,13 @@ Package epstopdf Info: Source file: <ffit2.eps>
 (epstopdf)                    size: 176509 bytes
 (epstopdf)             Command: <repstopdf --outfile=./ffit2-eps-converted-to.p
 df ffit2.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 604.
 Package epstopdf Info: Output file is already uptodate.
 <./ffit2-eps-converted-to.pdf, id=58, 1258.7025pt x 570.13pt>
 File: ./ffit2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./ffit2-eps-converted-to.pdf>
-Package pdftex.def Info: ./ffit2-eps-converted-to.pdf used on input line 603.
+Package pdftex.def Info: ./ffit2-eps-converted-to.pdf used on input line 604.
 (pdftex.def)             Requested size: 469.75499pt x 212.77168pt.
  [12]
 Plotone included the file ffit3.eps
@@ -396,13 +396,13 @@ Package epstopdf Info: Source file: <ffit3.eps>
 (epstopdf)                    size: 46193 bytes
 (epstopdf)             Command: <repstopdf --outfile=./ffit3-eps-converted-to.p
 df ffit3.eps>
-(epstopdf)             \includegraphics on input line 655.
+(epstopdf)             \includegraphics on input line 656.
 Package epstopdf Info: Output file is already uptodate.
 <./ffit3-eps-converted-to.pdf, id=62, 578.16pt x 433.62pt>
 File: ./ffit3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./ffit3-eps-converted-to.pdf>
-Package pdftex.def Info: ./ffit3-eps-converted-to.pdf used on input line 655.
+Package pdftex.def Info: ./ffit3-eps-converted-to.pdf used on input line 656.
 (pdftex.def)             Requested size: 469.75499pt x 352.31538pt.
  [13]
 Plotone included the file ffit4.eps
@@ -414,13 +414,13 @@ Package epstopdf Info: Source file: <ffit4.eps>
 (epstopdf)                    size: 93139 bytes
 (epstopdf)             Command: <repstopdf --outfile=./ffit4-eps-converted-to.p
 df ffit4.eps>
-(epstopdf)             \includegraphics on input line 699.
+(epstopdf)             \includegraphics on input line 700.
 Package epstopdf Info: Output file is already uptodate.
 <./ffit4-eps-converted-to.pdf, id=67, 1955.305pt x 1051.93pt>
 File: ./ffit4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./ffit4-eps-converted-to.pdf>
-Package pdftex.def Info: ./ffit4-eps-converted-to.pdf used on input line 699.
+Package pdftex.def Info: ./ffit4-eps-converted-to.pdf used on input line 700.
 (pdftex.def)             Requested size: 328.82706pt x 176.8996pt.
  [14]
 Plotone included the file ffit5.eps
@@ -432,13 +432,13 @@ Package epstopdf Info: Source file: <ffit5.eps>
 (epstopdf)                    size: 8495 bytes
 (epstopdf)             Command: <repstopdf --outfile=./ffit5-eps-converted-to.p
 df ffit5.eps>
-(epstopdf)             \includegraphics on input line 770.
+(epstopdf)             \includegraphics on input line 771.
 Package epstopdf Info: Output file is already uptodate.
 <./ffit5-eps-converted-to.pdf, id=71, 578.16pt x 433.62pt>
 File: ./ffit5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./ffit5-eps-converted-to.pdf>
-Package pdftex.def Info: ./ffit5-eps-converted-to.pdf used on input line 770.
+Package pdftex.def Info: ./ffit5-eps-converted-to.pdf used on input line 771.
 (pdftex.def)             Requested size: 328.82706pt x 246.61679pt.
  [15] (./msnew.bbl [16] [17] [18]) [19]
 [20 <./terskol-eps-converted-to.pdf>] [21 <./gd358multidft-eps-converted-to.pdf
@@ -534,13 +534,13 @@ Overfull \hbox (469.75499pt too wide) in paragraph at lines 13--21
 
 ) [57] (./msnew.aux) ) 
 Here is how much of TeX's memory you used:
- 3054 strings out of 494953
- 40706 string characters out of 6180978
- 109701 words of memory out of 5000000
- 6260 multiletter control sequences out of 15000+600000
+ 3057 strings out of 494953
+ 40757 string characters out of 6180978
+ 109729 words of memory out of 5000000
+ 6263 multiletter control sequences out of 15000+600000
  13885 words of font info for 58 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,10n,28p,917b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,28p,917b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
@@ -554,10 +554,10 @@ nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti12.pfb>
-Output written on msnew.pdf (57 pages, 899391 bytes).
+Output written on msnew.pdf (57 pages, 739686 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
+ 346 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

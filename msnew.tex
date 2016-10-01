@@ -192,20 +192,20 @@ New observations presented here include 278 individual observing runs (1105.1 hr
 multi-site WET campaigns \citep{wet90}. 
 
 Data reduction follows the steps described in \citet{Provencal12}. In brief, the new observations 
-were obtained with different CCD photometers, each with distinct effective bandpasses. 
-We minimize the bandpass issues by using CCDs with similar detectors whenever possible and 
+were obtained with CCD photometers at multiple sites, each with distinct effective bandpasses. 
+We reduce the bandpass issues by using CCDs with similar detectors whenever possible and 
 employing a red cutoff filter (BG40 or S8612) to normalize wavelength response and 
-reduce extinction effects. We corrected each image for bias and thermal noise, and 
+minimize extinction effects. We corrected each image for bias and thermal noise, and 
 normalized by the flat field. Aperture photometry using the Maestro photometry pipeline 
-described by \citet{Dalessio10} was performed on each image, utilizing a range of 
+described by \citet{Dalessio10} was performed on each image, covering a range of 
 aperture sizes for the target and comparison stars. For each individual nightly run, we 
 chose the combination of aperture size and comparison star(s) producing the highest 
 signal/noise light curve. 
 
-We used the WQED pipeline \citep{wqed} to examine each nightly light curve for photometric 
+We used the WQED pipeline \citep{wqed} to examine each light curve for photometric 
 quality, remove outlying points, divide by suitable comparison stars, and correct for 
-differential extinction. Our observational technique is therefore not sensitive to 
-oscillations longer than a few hours. The result is a series of light curves 
+differential extinction. This observational technique is therefore not sensitive to 
+oscillations longer than a few hours. The final product is a series of light curves 
 with amplitude variations represented as fractional intensity (mmi). The unit is a linear 
 representation of the fractional intensity of modulation (1 mmi $\approx$ 1 mmag). We present
 our Fourier transforms (FTs) in units of modulation amplitude 
@@ -213,9 +213,9 @@ our Fourier transforms (FTs) in units of modulation amplitude
 
 The final reduction step is to combine the individual light curves 
 (an example is shown in Fig. \ref{tersk}) to produce complete light curves for GD358 for each 
-observing season. We assume GD358 oscillates about a mean light level. This assumption 
-allows us to carefully assess overlapping segments from different telescopes and identify 
-and correct any vertical offsets. As discussed in detail in \citet{Provencal09}, we find 
+observing season. As we do for all white dwarf pulators, we assume GD358 oscillates around 
+a mean light level. This assumption allows us to assess overlapping light curves from multiple 
+telescopes and identify and correct any vertical offsets. As discussed in detail in \citet{Provencal09}, we find 
 no significant differences between the noise levels of amplitude spectra using: 
 1) the combination of all light curves including overlapping 
 segments from different telescopes, 2) the combination of light curves where we retain 
@@ -239,7 +239,7 @@ for each observing season between 1982 and 2016.
 For the new observations, 2007 contains 8.1 hrs of observation, 2008 26.1 hrs, 2009 45 hrs, 
 2010 201.3 hrs, 2011 401.1 hrs, 2012 150.5 hrs, 2013 87 hrs, 2014 184.6 hrs, 2015 55 hrs and 2016 90.6 hrs. 
 Our coverage is not complete, and this incompleteness produces spectral leakage in the 
-amplitude spectra. To quantify this, we sampled single sinusoids using exactly the 
+amplitude spectra. To quantify this, our standard procedure samples single sinusoids using exactly the 
 same times as the original data for each season. The resulting amplitude spectrum, 
 or ``spectral window'', is the pattern produced in the FT by a single frequency. 
 The FTs for 2010, 2011, and 2014 are given in Fig.~\ref{fts}.
@@ -266,20 +266,20 @@ it is not feasible to analyze the entire data set as one unit. To minimize the e
 amplitude and frequency variations, we analyze the light curves from each observing season individually.
 
 We use {\sl Period04} \citep{Lenz05} for Fourier analysis and nonlinear least squares fitting to 
-select statistically significant peaks in each FT. We adopt the criterion that a peak must have 
-an amplitude at least four times greater than the average noise level in the given frequency range 
-\citep{Provencal12}. We define ``noise'' as the frequency-dependent 
-average amplitude after removal of the dominant frequencies. This is a conservative estimate, 
-as it is impossible to ensure that all of the ``real'' frequencies are removed when determining
-the noise level. This is certainly true for GD358, where the peaks above $\approx$ 2500 $\mu$Hz\ 
+identify statistically significant peaks in each FT. We adopt the criterion that a peak must have 
+an amplitude at least four times that of the average noise level in the given frequency range 
+\citep{Provencal12}. This criterion places a 99.9\% probability that the peak represents a real signal,
+and is not a result of random noise \citep{Scargle82, Provencal12}.  We define ``noise'' as the frequency-dependent 
+average amplitude after prewhitening of the dominant frequencies. This is unquestionably a conservative estimate, 
+as it is impractical to assume that all ``real'' frequencies are removed when determining
+the noise level. This is certainly true for GD358, where amplitude modulation is present, and the peaks above $\approx$ 2500 $\mu$Hz\ 
 are combination frequencies (see Section \ref{mode}, \citet{Provencal09}).  Fig.~\ref{noise} displays the average noise 
 as a function of frequency for the 2007-2016 observing seasons. A similar plot for the 
-archival data is presented in Fig. 3 of \citet{Provencal09}. To confirm our uncertainty 
-estimates, we calculated Monte Carlo simulations using the routine provided in {\sl Period04}.  
-This routine generates a set of light curves using the original times, the fitted frequencies and 
-amplitudes, and added Gaussian noise. A least squares fit is performed on each simulated light 
-curve, with the distribution of fit parameters giving the uncertainties. Our Monte Carlo results 
-are consistent with our average noise estimates.
+archival data is presented in Fig. 3 of \citet{Provencal09}. We also calculated Monte Carlo 
+simulations using the routine provided in {\sl Period04}.  This routine generates a set of light curves using 
+the original times, the fitted frequencies and amplitudes, and added Gaussian noise. A least squares fit is 
+performed on each simulated light curve, with the distribution of fit parameters giving the uncertainties. 
+Our Monte Carlo results are consistent with our average noise estimates.
 
 \begin{figure}
 \plotone{noise}
@@ -291,14 +291,15 @@ season are somewhat different.  This must be taken into account during frequency
 \end{figure}
 
 Having established our baseline noise levels, we proceed to frequency selection and identification.
-Our frequency selection procedure involves identifying the largest amplitude resolved peak in the FT,
-fitting a sinusoid at that frequency to the data set, subtracting the fit from the light curve, 
+Our standard frequency selection procedure involves identifying the largest amplitude resolved peak in the FT,
+fitting a sinusoid with that frequency to the data set, subtracting the fit from the light curve, 
 recomputing the FT, examining the residuals, and repeating the process until no significant power 
-remains. This technique, known as prewhitening, must be employed with an over-abundance of caution, 
-especially since we are aware of amplitude and/or frequency modulation in our data set. A detailed
-discussion of the prewhitening procedure and steps taken to minimize the effects of amplitude 
-modulation is given in \citet{Provencal09}. Our final identifications of independent frequencies
-detected in each observing season are given in Table \ref{freq1} and Table \ref{freq2}.
+remains. This technique is known as prewhitening. Prewhitening has inherent dangers, and must be 
+employed with extreme vigilance, especially as we are aware of amplitude and/or frequency 
+modulation in our data set. A detailed discussion of the prewhitening procedure and steps 
+taken to minimize the effects of amplitude modulation is given in \citet{Provencal09}. Our final 
+identifications of independent frequencies detected in each observing season are given in 
+Table \ref{freq1} and Table \ref{freq2}.
 
 \section{Frequency Analysis}\label{analysis}
 
@@ -340,7 +341,7 @@ exception of the two highest frequency (shortest period) bands ($k=8$ and $k=9$
 from \citet{Provencal09}), we find no clear evidence of stable multiplet structure in the frequency 
 distributions of the lower frequency (longer period) bands (Fig.~\ref{rot}). This does not imply that the 
 structures found by \cite{Winget94}, \cite{Kepler03}, \cite{Montgomery10} and others are not real. In 
-particular, it is clear that the $k=12$ mode can be explained by the oblique rotation model during 2006. However, 
+particular, it is clear that the 1741 \muHz\ ($k=12$) mode can be explained by the oblique rotation model during 2006. However, 
 previous work represents short snapshots of GD358. When examined over timescales of decades, these structures 
 do not regularly recur, and so cannot be interpreted as simple rotational splitting. The lower frequency band widths 
 are most likely the result of various processes producing amplitude and/or frequency modulation that obscures any 
